@@ -1,0 +1,81 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portfolio status board: 37 public repositories, 2 flagship applications, 1,497 automated tests and 18 CI quality gates in the flagship, 40 plus years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable.">
+<rect width="1000" height="600" rx="14" fill="#12313f"/>
+<text x="32" y="48" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f4b04a" text-anchor="start">Portfolio Status Board</text>
+<text x="32" y="72" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#9fbac2" text-anchor="start">Ranajit Baran Chowdhury · github.com/rbchy · 26 Oct 2026</text>
+<rect x="32.0" y="92" width="177.6" height="96" rx="10" fill="#1b4253"/><text x="48.0" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="start">37</text><text x="48.0" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e8f1f3" text-anchor="start">public repositories</text><text x="48.0" y="173" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">web · mobile · API · full stack</text>
+<rect x="221.6" y="92" width="177.6" height="96" rx="10" fill="#1b4253"/><text x="237.6" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="start">2</text><text x="237.6" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e8f1f3" text-anchor="start">flagship applications</text><text x="237.6" y="173" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">E-Commerce Suite · Shop</text>
+<rect x="411.2" y="92" width="177.6" height="96" rx="10" fill="#1b4253"/><text x="427.2" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="start">1,497</text><text x="427.2" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e8f1f3" text-anchor="start">automated tests</text><text x="427.2" y="173" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">in the flagship, every push</text>
+<rect x="600.8" y="92" width="177.6" height="96" rx="10" fill="#1b4253"/><text x="616.8" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="start">18 / 18</text><text x="616.8" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e8f1f3" text-anchor="start">CI quality gates</text><text x="616.8" y="173" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">GitHub Actions + Jenkins</text>
+<rect x="790.4" y="92" width="177.6" height="96" rx="10" fill="#1b4253"/><text x="806.4" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="start">40+</text><text x="806.4" y="154" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e8f1f3" text-anchor="start">years in technology</text><text x="806.4" y="173" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">ports · pharma · QA</text>
+<text x="32" y="228" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8f1f3" text-anchor="start">Repositories by area</text>
+<rect x="32.0" y="242" width="402.8" height="26" rx="4" fill="#4fb3a9"/>
+<rect x="436.8" y="242" width="301.6" height="26" rx="4" fill="#f4b04a"/>
+<rect x="740.3" y="242" width="124.5" height="26" rx="4" fill="#8fb8de"/>
+<rect x="866.8" y="242" width="48.6" height="26" rx="4" fill="#e58a8a"/>
+<rect x="917.4" y="242" width="48.6" height="26" rx="4" fill="#b7a3e0"/>
+<rect x="32" y="282" width="12" height="12" rx="3" fill="#4fb3a9"/>
+<text x="50" y="293" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#e8f1f3" text-anchor="start">Web UI automation 16</text>
+<rect x="210.0" y="282" width="12" height="12" rx="3" fill="#f4b04a"/>
+<text x="228.0" y="293" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#e8f1f3" text-anchor="start">Full-stack applications 12</text>
+<rect x="428.20000000000005" y="282" width="12" height="12" rx="3" fill="#8fb8de"/>
+<text x="446.20000000000005" y="293" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#e8f1f3" text-anchor="start">Mobile (Appium) 5</text>
+<rect x="586.1" y="282" width="12" height="12" rx="3" fill="#e58a8a"/>
+<text x="604.1" y="293" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#e8f1f3" text-anchor="start">API automation 2</text>
+<rect x="737.3" y="282" width="12" height="12" rx="3" fill="#b7a3e0"/>
+<text x="755.3" y="293" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#e8f1f3" text-anchor="start">Portfolio / profile 2</text>
+<text x="32" y="336" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8f1f3" text-anchor="start">Featured projects</text>
+<rect x="32.0" y="350" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="48.0" cy="368" r="6" fill="#f4b04a"/>
+<text x="62.0" y="366" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">RbcTcsWorld E-Commerce Suite</text>
+<text x="62.0" y="380" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">flagship · 1,497 tests · 18 CI gates</text>
+<rect x="348.0" y="350" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="364.0" cy="368" r="6" fill="#f4b04a"/>
+<text x="378.0" y="366" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">RbcTcsWorld Shop</text>
+<text x="378.0" y="380" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">flagship · live-store roadmap · phase 2 next</text>
+<rect x="664.0" y="350" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="680.0" cy="368" r="6" fill="#4ade80"/>
+<text x="694.0" y="366" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">PharmaPack QMS + Serialization</text>
+<text x="694.0" y="380" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">active · GMP packaging · desktop builds</text>
+<rect x="32.0" y="392" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="48.0" cy="410" r="6" fill="#4ade80"/>
+<text x="62.0" y="408" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">ClinTrial-Connect</text>
+<text x="62.0" y="422" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">active · Spring Boot · 115+ tests</text>
+<rect x="348.0" y="392" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="364.0" cy="410" r="6" fill="#8fb8de"/>
+<text x="378.0" y="408" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">QA Brains: Python Playwright</text>
+<text x="378.0" y="422" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">stable · 12 passed · 0 failed</text>
+<rect x="664.0" y="392" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="680.0" cy="410" r="6" fill="#8fb8de"/>
+<text x="694.0" y="408" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">QA Brains: TypeScript Playwright</text>
+<text x="694.0" y="422" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">stable · 14 passed · 0 failed</text>
+<rect x="32.0" y="434" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="48.0" cy="452" r="6" fill="#8fb8de"/>
+<text x="62.0" y="450" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">QA Brains: Java Playwright</text>
+<text x="62.0" y="464" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">stable · Cucumber JVM · TestNG</text>
+<rect x="348.0" y="434" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="364.0" cy="452" r="6" fill="#8fb8de"/>
+<text x="378.0" y="450" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">Appium Mobile Automation</text>
+<text x="378.0" y="464" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">stable · 23 / 23 · 100 % pass</text>
+<rect x="664.0" y="434" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="680.0" cy="452" r="6" fill="#8fb8de"/>
+<text x="694.0" y="450" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">OpenEMR Healthcare</text>
+<text x="694.0" y="464" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">stable · Selenium · Cucumber</text>
+<rect x="32.0" y="476" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="48.0" cy="494" r="6" fill="#8fb8de"/>
+<text x="62.0" y="492" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">Sauce Labs Cloud</text>
+<text x="62.0" y="506" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">stable · 20+ browser/OS combos</text>
+<rect x="348.0" y="476" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="364.0" cy="494" r="6" fill="#8fb8de"/>
+<text x="378.0" y="492" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">API: REST Assured + Postman</text>
+<text x="378.0" y="506" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">stable · auth · data-driven</text>
+<rect x="664.0" y="476" width="304.0" height="36" rx="8" fill="#1b4253"/>
+<circle cx="680.0" cy="494" r="6" fill="#8fb8de"/>
+<text x="694.0" y="492" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e8f1f3" text-anchor="start">Payroll Management System</text>
+<text x="694.0" y="506" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="start">stable · Java Swing · MySQL</text>
+<circle cx="38" cy="532" r="6" fill="#f4b04a"/>
+<text x="50" y="536" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9fbac2" text-anchor="start">flagship: full test system in CI</text>
+<circle cx="288" cy="532" r="6" fill="#4ade80"/>
+<text x="300" y="536" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9fbac2" text-anchor="start">active: under development</text>
+<circle cx="538" cy="532" r="6" fill="#8fb8de"/>
+<text x="550" y="536" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9fbac2" text-anchor="start">stable: complete and maintained</text>
+</svg>
