@@ -1,382 +1,194 @@
-<div align="center">
+# Ranajit Baran Chowdhury - QA Automation Portfolio
 
-# 👋 Hi, I'm Ranajit Baran Chowdhury
+[![Open to work](https://img.shields.io/badge/status-open%20to%20work-22c55e)](mailto:chyranajit@gmail.com)
+![Role](https://img.shields.io/badge/QA%20Automation%20%2F%20SDET-0d9488)
+![Repositories](https://img.shields.io/badge/public%20repositories-37-155e75)
+![Flagship tests](https://img.shields.io/badge/flagship%20tests-1497-brightgreen)
+![CI gates](https://img.shields.io/badge/CI%20quality%20gates-18-brightgreen)
+![Location](https://img.shields.io/badge/Pennsylvania%2C%20USA-remote%20%2F%20hybrid-1e3a8a)
 
-### QA Automation Engineer & Software Developer | SDET | Mobile & Web | Playwright · Selenium · Appium · Cypress · BDD | Remote-Ready
+Test automation across **web, mobile and API**, in **Java, Python, JavaScript and TypeScript**, with **Selenium,
+Playwright, Cypress, Appium, REST Assured, Postman and Cucumber**. 37 public repositories: e-commerce, banking,
+healthcare, HR, pharmaceutical packaging and cloud testing. The flagship is a complete test system around an online
+store: 1,497 automated tests behind 18 CI quality gates in GitHub Actions and Jenkins. Behind it are four decades of
+enterprise systems work, from container terminal management (NAVIS SPARCS N4) to GMP pharmaceutical packaging.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ranajitchowdhury)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ranajitchowdhury)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-blueviolet?style=for-the-badge&logo=wix&logoColor=white)](https://rbc6543.wixsite.com/rbc-portfolio)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chyranajit@gmail.com)
-
-📍 Plymouth Meeting, Pennsylvania 19462, USA &nbsp;|&nbsp; 🌐 Open to Remote Opportunities
-
-</div>
-
----
-
-## 🙋 About Me
-
-I am a **QA Automation Engineer / SDET** specializing in **Mobile and Web test automation** across multiple programming languages and frameworks. I build robust, scalable BDD frameworks using **Playwright**, **Selenium**, **Appium**, **Cypress**, and **Cucumber** in **Java**, **Python**, **JavaScript** **TypeScript**.
-
-With 20+ projects across **Mobile, E-Commerce, Banking, Healthcare, HR Systems, and API Testing**, I bring hands-on experience in enterprise-grade framework design, CI/CD integration, and cloud-based test execution.
+Author: **Ranajit Baran (RB) Chowdhury**, QA Automation Engineer / SDET -
+[GitHub](https://github.com/rbchy) · [LinkedIn](https://www.linkedin.com/in/rbchy/) ·
+[Website](https://rbchy.github.io/rbchy/) · [Portfolio](https://rbc6543.wixsite.com/rbc-portfolio) ·
+[chyranajit@gmail.com](mailto:chyranajit@gmail.com)
 
 > *"Quality is never an accident; it is always the result of intelligent effort."*
 
 ---
 
-## 🚀 Current Focus
+## 🚦 Portfolio Status Board
 
-- ✅ **Mobile Automation** — Appium 3.x + TestNG + Allure (Android, 100% pass rate achieved)
-- ✅ Cypress 14 BDD automation with Cucumber (E-Commerce, Amazon)
-- ✅ Playwright BDD frameworks — TypeScript, Python, Java
-- ✅ API Automation — Rest Assured + Postman/Newman
-- ✅ Cloud-based test execution — Sauce Labs & AWS
-- 🔄 CI/CD Pipeline hardening — GitHub Actions + Jenkins
-- 🔄 AWS Cloud Practitioner Certification (in progress)
+<img src="docs/images/portfolio-status.svg" alt="Portfolio status board: 37 public repositories, 2 flagship applications, 1,497 automated tests and 18 CI quality gates in the flagship, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
 
----
+[![Suite CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml)
+[![Shop CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml)
+![Followers](https://img.shields.io/github/followers/rbchy?label=followers)
+![Last commit](https://img.shields.io/github/last-commit/rbchy/ranajitchowdhury?label=last%20update)
 
-## 🛠️ QA Automation Skills
+The board is a snapshot of 26 Oct 2026, redrawn with [`docs/images/make_readme_cards.py`](docs/images/make_readme_cards.py);
+the CI badges above are live.
 
-### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+## 🥧 Breakdown
 
-### Mobile Automation
-![Appium](https://img.shields.io/badge/Appium-3.x-purple?style=flat-square&logo=appium&logoColor=white)
-![Android](https://img.shields.io/badge/Android-UiAutomator2-3DDC84?style=flat-square&logo=android&logoColor=white)
-![iOS](https://img.shields.io/badge/iOS-XCUITest-000000?style=flat-square&logo=apple&logoColor=white)
+```mermaid
+pie showData
+    title 37 public repositories by area
+    "Web UI automation" : 16
+    "Full-stack applications" : 12
+    "Mobile (Appium)" : 5
+    "API automation" : 2
+    "Portfolio / profile" : 2
+```
 
-### Web UI Automation
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square&logo=cypress&logoColor=white)
+```mermaid
+pie showData
+    title 1,497 tests in the flagship, by level
+    "Backend unit + integration" : 772
+    "API, DB, BDD, Selenium UI" : 444
+    "Playwright (5 browsers/devices)" : 273
+    "Appium (Android + iOS)" : 8
+```
 
-### BDD & Test Frameworks
-![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
-![Behave](https://img.shields.io/badge/Behave-BDD-orange?style=flat-square)
-![TestNG](https://img.shields.io/badge/TestNG-FF7300?style=flat-square)
-![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
+## 📈 GitHub Stats
 
-### API Testing
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Rest Assured](https://img.shields.io/badge/Rest_Assured-Java-43B02A?style=flat-square&logo=java&logoColor=white)
-![Newman](https://img.shields.io/badge/Newman-CLI-FF6C37?style=flat-square)
-
-### Build, CI/CD & Project Management
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-
-### Reporting
-![Allure](https://img.shields.io/badge/Allure-Reports-yellow?style=flat-square)
-![ExtentReports](https://img.shields.io/badge/ExtentReports-HTML-green?style=flat-square)
-![Cucumber HTML](https://img.shields.io/badge/Cucumber-HTML_Reports-23D96C?style=flat-square)
-
-### Cloud & Execution
-![Sauce Labs](https://img.shields.io/badge/Sauce_Labs-E2231A?style=flat-square&logo=saucelabs&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-
-### Version Control & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white)
-
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
-![DataFlex](https://img.shields.io/badge/DataFlex-007ACC?style=flat-square&logo=dataflex&logoColor=white)
----
-
-## 📂 Automation Projects
-
-### 📱 Mobile Automation (Appium)
+<img src="docs/images/github-stats.svg" alt="GitHub stats: 37 public repositories, 35 updated in 2026; tests in Java, JavaScript, TypeScript and Python with Selenium, Playwright, Cypress, Appium, REST Assured, Postman, Cucumber and TestNG" width="100%">
 
 ---
 
-#### 🤖 AppiumMobileAutomation — Android + Appium 3.x + TestNG + Allure
-[![Java](https://img.shields.io/badge/Java-Appium-purple?style=flat-square)](https://github.com/rbchy/AppiumMobileAutomation)
-![Pass](https://img.shields.io/badge/Pass_Rate-100%25-brightgreen?style=flat-square)
+## Reviewing this in 5 minutes
 
-End-to-end Android mobile automation framework for the **Sauce Labs My Demo App**. Covers Login, Cart, Product Detail, Sort, Checkout, and Form Validation with beautiful Allure Reports.
-
-**Tech:** Java · Appium 3.x · TestNG · Maven · Allure Reports · POM · Android UiAutomator2
-
-| Metric | Result |
-|--------|--------|
-| Total Tests | 23 |
-| ✅ Passed | 23 |
-| ❌ Failed | 0 |
-| Pass Rate | **100%** |
-
----
-
-#### 🤖 AppiumAutomation_ApiDemos — Android + Appium 3.5.2 + ExtentReports
-[![Java](https://img.shields.io/badge/Java-Appium-purple?style=flat-square)](https://github.com/rbchy/AppiumAutomation_ApiDemos)
-
-Native Android app automation using the **ApiDemos** application. Covers app lifecycle, navigation, gestures, input handling, install/uninstall flows with rich ExtentReports output.
-
-**Tech:** Java · Appium 3.5.2 · TestNG · Maven · ExtentReports · POM
+1. **The flagship:** [RbcTcsWorld E-Commerce Suite](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite) - the
+   application is the test object; the work is the test system around it. Start with its README and the
+   [live reports](https://rbchy.github.io/RbcTcsWorld_ECommerceSuite/reports/).
+2. **Defects the tests actually found:** [29 defect reports](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/blob/main/docs/qa/DEFECT_REPORTS.md),
+   each with evidence, root cause, fix and regression test.
+3. **How release decisions are made:** [Test Strategy](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/blob/main/docs/qa/TEST_STRATEGY.md) ·
+   [Risk Register](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/blob/main/docs/qa/RISK_REGISTER.md) ·
+   [Traceability (129 requirements)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/blob/main/docs/qa/TRACEABILITY_MATRIX.md) ·
+   [UAT Plan](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/blob/main/docs/qa/UAT_PLAN.md)
+4. **From portfolio to live store:** [RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld) and its
+   [roadmap](https://github.com/rbchy/RbcTcsWorld/blob/main/docs/store/ROADMAP.md).
+5. **One framework, three languages:** QA Brains in [Python](https://github.com/rbchy/QaBrainsAutomationPythonPlawright),
+   [TypeScript](https://github.com/rbchy/QaBrainsAutomationTypeScriptPlaywright) and
+   [Java](https://github.com/rbchy/QaBrainsAutomationJavaPlaywright) with Playwright.
+6. **Domain depth:** [PharmaPack QMS + Serialization](https://github.com/rbchy/RbcTcsWorld_PharmaPackQMS_Serialization)
+   (GMP packaging, from my work as a pharmaceutical packaging Line Lead).
 
 ---
 
-### 🌐 Web Automation — BDD Frameworks (QaBrains Multi-Language Suite)
+## ⭐ Flagship projects
+
+| Project | What it is | Evidence |
+|---|---|---|
+| [RbcTcsWorld E-Commerce Suite](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite) | Amazon-inspired store (Java 21, Spring Boot 4.1, PostgreSQL, React) built to be tested: unit, API, contract, DB, BDD, Selenium, Playwright, Appium, accessibility, performance, security, mutation testing | ![tests](https://img.shields.io/badge/tests-1497-brightgreen) ![coverage](https://img.shields.io/badge/lines-97.3%25-brightgreen) ![mutation](https://img.shields.io/badge/mutation-89.3%25-brightgreen) [![CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml) |
+| [RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld) | The same code on its way to a real store: Stripe Elements, tax, shipping, e-mail domain, backups, legal pages, under the same 18 gates | ![stage](https://img.shields.io/badge/stage-pre--launch-f59e0b) [![CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml) |
 
 ---
 
-#### 🔬 QaBrains — TypeScript + Playwright + Cucumber
-[![TypeScript](https://img.shields.io/badge/TypeScript-Playwright-blue?style=flat-square)](https://github.com/ranajitchowdhury/QaBrainsAutomationTypeScriptPlaywright)
-![Pass](https://img.shields.io/badge/Tests-14_PASSED-brightgreen?style=flat-square)
+## 📂 Projects by area
 
-Enterprise-grade BDD framework with async/await patterns, Cucumber HTML reports, and CI/CD-ready structure.
+Live badges show each repository's last update.
 
-**Tech:** TypeScript · Playwright · Cucumber · Node.js · npm · POM
+### 📱 Mobile (Appium)
 
----
+| Project | Stack | Result | Updated |
+|---|---|---|---|
+| [AppiumMobileAutomation](https://github.com/rbchy/AppiumMobileAutomation) | Java · Appium 3 · TestNG · Allure · Sauce Labs My Demo App | 23 / 23, 100 % pass | ![](https://img.shields.io/github/last-commit/rbchy/AppiumMobileAutomation?label=) |
+| [AppiumAutomation_ApiDemos](https://github.com/rbchy/AppiumAutomation_ApiDemos) | Java · Appium 3.5 · TestNG · ExtentReports | lifecycle, gestures, input | ![](https://img.shields.io/github/last-commit/rbchy/AppiumAutomation_ApiDemos?label=) |
+| [AndroidUIAppiumTest_MyDemoEcommerce](https://github.com/rbchy/AndroidUIAppiumTest_MyDemoEcommerce) | Java 17 · Appium 3 · UiAutomator2 · TestNG | Android e-commerce flows | ![](https://img.shields.io/github/last-commit/rbchy/AndroidUIAppiumTest_MyDemoEcommerce?label=) |
+| [WebdriverIO Native Demo App](https://github.com/rbchy/WebdriverIO-Native-DemoApp-MobileTestAutomationJavaAppiumTestNG) | Java · Appium · TestNG · Allure | native app flows | ![](https://img.shields.io/github/last-commit/rbchy/WebdriverIO-Native-DemoApp-MobileTestAutomationJavaAppiumTestNG?label=) |
 
-#### 🔬 QaBrains — Python + Playwright + Behave
-[![Python](https://img.shields.io/badge/Python-Playwright-blue?style=flat-square)](https://github.com/ranajitchowdhury/QaBrainsAutomationPythonPlawright)
-![Pass](https://img.shields.io/badge/Tests-12_PASSED-brightgreen?style=flat-square)
+### 🌐 Web UI automation (BDD)
 
-Python BDD automation with Allure reporting, screenshot-on-failure, and smart known-issue handling.
+| Project | Stack | Result | Updated |
+|---|---|---|---|
+| [QA Brains: TypeScript](https://github.com/rbchy/QaBrainsAutomationTypeScriptPlaywright) | TypeScript · Playwright · Cucumber.js | 14 passed, 0 failed | ![](https://img.shields.io/github/last-commit/rbchy/QaBrainsAutomationTypeScriptPlaywright?label=) |
+| [QA Brains: Python](https://github.com/rbchy/QaBrainsAutomationPythonPlawright) | Python · Playwright · Behave · Allure | 12 passed, 0 failed | ![](https://img.shields.io/github/last-commit/rbchy/QaBrainsAutomationPythonPlawright?label=) |
+| [QA Brains: Java Playwright](https://github.com/rbchy/QaBrainsAutomationJavaPlaywright) | Java · Playwright · Cucumber JVM · TestNG | stable | ![](https://img.shields.io/github/last-commit/rbchy/QaBrainsAutomationJavaPlaywright?label=) |
+| [QA Brains: Java Selenium](https://github.com/rbchy/QaBrainsAutomationJavaSelenium) | Java · Selenium · Cucumber · TestNG | stable | ![](https://img.shields.io/github/last-commit/rbchy/QaBrainsAutomationJavaSelenium?label=) |
+| [Amazon: Cypress](https://github.com/rbchy/Amazon-Cypress-JavaScript-Automation) | JavaScript · Cypress 14 · Cucumber | login, shopping, cart | ![](https://img.shields.io/github/last-commit/rbchy/Amazon-Cypress-JavaScript-Automation?label=) |
+| [QA Brains: Cypress](https://github.com/rbchy/QaBrainsAutomationCypressJavaScript) | JavaScript · Cypress 13 · Cucumber | e-commerce flows | ![](https://img.shields.io/github/last-commit/rbchy/QaBrainsAutomationCypressJavaScript?label=) |
+| [NorthFace AutomationExercise](https://github.com/rbchy/NorthFace_AutomationExercise-BDD-Test-Automation) | UI, E2E, API, accessibility, performance and security in one project | BDD | ![](https://img.shields.io/github/last-commit/rbchy/NorthFace_AutomationExercise-BDD-Test-Automation?label=) |
+| [Sauce Demo + MyShopify](https://github.com/rbchy/Sauce-Demo.MyShopify.AutomationTest) | Java · Selenium · TestNG | two shops | ![](https://img.shields.io/github/last-commit/rbchy/Sauce-Demo.MyShopify.AutomationTest?label=) |
+| [Multicart Demo](https://github.com/rbchy/Multicart_Demo_Automation) | Java · Selenium · Cucumber | cart and checkout | ![](https://img.shields.io/github/last-commit/rbchy/Multicart_Demo_Automation?label=) |
+| [ParaBank (banking)](https://github.com/rbchy/ParaBank-BankingAutomationJavaSelenium) | Java · Selenium · Spring Boot · MySQL | transfers, loans, statements | ![](https://img.shields.io/github/last-commit/rbchy/ParaBank-BankingAutomationJavaSelenium?label=) |
+| [OpenEMR (healthcare)](https://github.com/rbchy/OpenEMR_Automation) | Java · Selenium · Cucumber · TestNG | patients, records, roles | ![](https://img.shields.io/github/last-commit/rbchy/OpenEMR_Automation?label=) |
+| [OrangeHRM (HR)](https://github.com/rbchy/OrangeHRM_TestAutomation_TestNG_Junit5) | Java · Selenium · TestNG · JUnit 5 | HR and payroll | ![](https://img.shields.io/github/last-commit/rbchy/OrangeHRM_TestAutomation_TestNG_Junit5?label=) |
+| [Sauce Labs cloud](https://github.com/rbchy/QaBrainsSauceLabAPI_Automation) | Java · Selenium · Cucumber · Sauce Labs · Jenkins | 20+ parallel browser/OS combinations | ![](https://img.shields.io/github/last-commit/rbchy/QaBrainsSauceLabAPI_Automation?label=) |
 
-**Tech:** Python · Playwright · Behave · Allure · POM
+### 🔌 API testing
 
----
+| Project | Stack | Result | Updated |
+|---|---|---|---|
+| [QA Brains API: REST Assured](https://github.com/rbchy/QaBrainsAPIAutomationRestAssured) | Java · REST Assured · TestNG | auth, data-driven, schema checks | ![](https://img.shields.io/github/last-commit/rbchy/QaBrainsAPIAutomationRestAssured?label=) |
+| [QA Brains API: Postman](https://github.com/rbchy/QaBrainsAPIAutomation_Postman) | Postman · Newman | collections, environments, HTML report | ![](https://img.shields.io/github/last-commit/rbchy/QaBrainsAPIAutomation_Postman?label=) |
 
-#### 🔬 QaBrains — Java + Playwright + Cucumber
-[![Java](https://img.shields.io/badge/Java-Playwright-orange?style=flat-square)](https://github.com/ranajitchowdhury/QaBrainsAutomationJavaPlaywright)
+### 💻 Full-stack applications
 
-Java BDD automation using Playwright for Java with Cucumber JVM, TestNG runner, and Maven build.
+| Project | Stack | Domain | Updated |
+|---|---|---|---|
+| [PharmaPack QMS + Serialization](https://github.com/rbchy/RbcTcsWorld_PharmaPackQMS_Serialization) | Java · desktop builds for Windows, macOS, Linux | GMP pharmaceutical packaging | ![](https://img.shields.io/github/last-commit/rbchy/RbcTcsWorld_PharmaPackQMS_Serialization?label=) |
+| [ClinTrial-Connect](https://github.com/rbchy/RbcTcsWorld_ClinTrial-Connect) | Spring Boot · 115+ automated tests | clinical-trial patient matching | ![](https://img.shields.io/github/last-commit/rbchy/RbcTcsWorld_ClinTrial-Connect?label=) |
+| [EPMS](https://github.com/rbchy/RbcTcsWorld-EPMS) | Spring Boot REST API + test suite | payroll | ![](https://img.shields.io/github/last-commit/rbchy/RbcTcsWorld-EPMS?label=) |
+| [PPES](https://github.com/rbchy/PPES-Pharmaceutical-Packaging-Management) | Java 17 · MySQL 8 · DAO / MVC | packaging inventory | ![](https://img.shields.io/github/last-commit/rbchy/PPES-Pharmaceutical-Packaging-Management?label=) |
+| [Payroll Management System](https://github.com/rbchy/PayrollManagementSystem) | Java Swing · MySQL · JDBC | payroll | ![](https://img.shields.io/github/last-commit/rbchy/PayrollManagementSystem?label=) |
+| [BhojanAloy POS](https://github.com/rbchy/BhojanAloy-Food-Coffee-Shop-POS-System) | Java Swing · MySQL | food and coffee shop point of sale | ![](https://img.shields.io/github/last-commit/rbchy/BhojanAloy-Food-Coffee-Shop-POS-System?label=) |
+| [Inventory Control](https://github.com/rbchy/InventoryControlManagement_JavaMySql) | Java 17 · MySQL 8 · JDBC | real-time inventory | ![](https://img.shields.io/github/last-commit/rbchy/InventoryControlManagement_JavaMySql?label=) |
 
-**Tech:** Java · Playwright · Cucumber · TestNG · Maven
-
----
-
-#### 🔬 QaBrains — Java + Selenium + Cucumber
-[![Java](https://img.shields.io/badge/Java-Selenium-green?style=flat-square)](https://github.com/ranajitchowdhury/QaBrainsAutomationJavaSelenium)
-
-Classic Selenium WebDriver BDD framework — the foundational version of the QaBrains suite.
-
-**Tech:** Java · Selenium WebDriver · Cucumber · TestNG · Maven · POM
-
----
-
-### 🛒 Web Automation — E-Commerce
-
----
-
-#### 🛍️ Amazon — Cypress 14 + Cucumber (JavaScript BDD)
-[![Cypress](https://img.shields.io/badge/Cypress_14-Cucumber-17202C?style=flat-square)](https://github.com/ranajitchowdhury/Amazon-Cypress-JavaScript-Automation)
-
-Production-grade BDD automation for **Amazon.com** covering authentication, shopping workflows, and cart management.
-
-**Tech:** JavaScript · Cypress 14 · Cucumber · BDD · Node.js
-
----
-
-#### 🛍️ QaBrains — Cypress 13 + Cucumber (JavaScript BDD)
-[![Cypress](https://img.shields.io/badge/Cypress_13-Cucumber-17202C?style=flat-square)](https://github.com/ranajitchowdhury/QaBrainsAutomationCypressJavaScript)
-
-Full E-Commerce BDD automation framework for QaBrains application using Cypress and Cucumber.
-
-**Tech:** JavaScript · Cypress 13 · Cucumber · BDD · Node.js
+All 37 repositories: [github.com/rbchy?tab=repositories](https://github.com/rbchy?tab=repositories).
 
 ---
 
-#### 🛍️ Sauce Demo + MyShopify — Java + Selenium
-[![Java](https://img.shields.io/badge/Java-Selenium-green?style=flat-square)](https://github.com/ranajitchowdhury/Sauce-Demo.MyShopify.AutomationTest)
+## 🛠️ Skills
 
-Multi-site E-Commerce automation covering Sauce Demo and Shopify storefront.
-
-**Tech:** Java · Selenium WebDriver · TestNG · Maven
-
----
-
-#### 🛍️ Multicart Demo — Java + Selenium + Cucumber
-[![Java](https://img.shields.io/badge/Java-Selenium-green?style=flat-square)](https://github.com/ranajitchowdhury/Multicart_Demo_Automation)
-
-Multi-cart E-Commerce automation with BDD scenarios for cart and checkout flows.
-
-**Tech:** Java · Selenium WebDriver · Cucumber · POM
-
----
-
-### 🏦 Web Automation — Banking & Finance
+| Area | Tools |
+|---|---|
+| Languages | Java · Python · TypeScript · JavaScript · SQL |
+| Web UI | Selenium 4 · Playwright · Cypress · Page Object Model |
+| Mobile | Appium 3 · UiAutomator2 (Android) · XCUITest (iOS) |
+| BDD and runners | Cucumber · Behave · TestNG · JUnit 5 |
+| API | REST Assured · Postman / Newman · JSON Schema contracts · OpenAPI diff |
+| Quality engineering | JaCoCo coverage · PIT mutation testing · axe-core accessibility · k6 / JMeter performance · OWASP ZAP · OSV-Scanner |
+| CI/CD and delivery | GitHub Actions · Jenkins · Docker / Compose · Maven · npm |
+| Reporting | Allure · ExtentReports · Cucumber HTML · Playwright HTML |
+| Cloud and data | Sauce Labs · AWS basics · PostgreSQL · MySQL · Oracle · Redis |
+| Ways of working | Agile Scrum · SDLC / STLC · risk-based testing · traceability · UAT · Jira |
 
 ---
 
-#### 🏦 ParaBank — Java + Selenium + SpringBoot + MySQL
-[![Java](https://img.shields.io/badge/Java-Selenium-green?style=flat-square)](https://github.com/ranajitchowdhury/ParaBank-BankingAutomationJavaSelenium)
+## 👨‍💼 Career
 
-Banking automation covering fund transfers, loan requests, account statements, and transaction history on the ParaBank demo application.
+| Years | Role |
+|---|---|
+| 2022 - present | **Sharp Packaging Services LLC** - Line Lead, pharmaceutical blister packaging (primary and secondary): teams of up to 25 operators, batch records and line clearance, serialization, GMP, FDA regulations, OEB handling |
+| 2016 - present | **RbcTcsWorld** (self-employed) - QA automation engineer, system designer and developer |
+| 1990 - 1995 | **The Computer Systems**, Bangladesh - system consultant, designer and programmer |
+| 1979 - 2016 | **Chittagong Port Authority**, Bangladesh - NAVIS SPARCS N4 super user: CTMS configuration, container billing, MIS, team training |
 
-**Tech:** Java · JavaScript · Selenium WebDriver · MySQL · SpringBoot · Maven
-
----
-
-### 🏥 Web Automation — Healthcare
-
----
-
-#### 🏥 OpenEMR — Selenium + Java + Cucumber
-[![OpenEMR](https://img.shields.io/badge/OpenEMR-Selenium-green?style=flat-square)](https://github.com/ranajitchowdhury/OpenEMR_Automation)
-
-Healthcare application automation for the OpenEMR system covering patient management, authentication, navigation, and form validation.
-
-**Tech:** Java · Selenium WebDriver · Cucumber · TestNG · Maven · Jira
-
-**Live Site:** [demo.openemr.io](http://demo.openemr.io/b/openemr/interface/login/login.php)
+**Education:** Master's in Public Administration, University of Chittagong (1984-1985).
 
 ---
 
-### 👥 Web Automation — HR Systems
-
----
-
-#### 👥 OrangeHRM — Selenium + Java
-[![Java](https://img.shields.io/badge/Java-Selenium-green?style=flat-square)](https://github.com/ranajitchowdhury/OrangeHRM_Automation)
-
-HR software automation covering employee management, leave management, payroll, and recruitment on OrangeHRM.
-
-**Tech:** Java · Selenium WebDriver · TestNG · Maven
-
----
-
-### ☁️ Cloud Automation
-
----
-
-#### ☁️ Sauce Labs API — Java + Selenium + Cucumber
-[![SauceLabs](https://img.shields.io/badge/Sauce_Labs-Cloud_Testing-E2231A?style=flat-square)](https://github.com/ranajitchowdhury/QaBrainsSauceLabAPI_Automation)
-
-Cross-browser cloud automation integrated with Sauce Labs for testing on 700+ browser/OS combinations with video recording and real-time dashboards.
-
-**Tech:** Java · Selenium · Cucumber · TestNG · Sauce Labs · Maven · Jenkins
-
----
-
-### 🔌 API Testing
-
----
-
-#### 🔌 QaBrains API — Rest Assured (Java)
-[![API](https://img.shields.io/badge/Rest_Assured-Java-43B02A?style=flat-square)](https://github.com/ranajitchowdhury/QaBrainsAPIAutomationRestAssured)
-
-REST API automation covering endpoint validation, authentication flows, response assertions, and data-driven testing.
-
-**Tech:** Java · Rest Assured · TestNG · Maven · JSON
-
----
-
-#### 🔌 QaBrains API — Postman + Newman
-[![API](https://img.shields.io/badge/Postman-Newman-FF6C37?style=flat-square)](https://github.com/ranajitchowdhury/QaBrainsAPIAutomation_Postman)
-
-API test collections with Newman CLI runner — includes environment configs, pre-request scripts, and HTML reporting.
-
-**Tech:** Postman · Newman · JavaScript · JSON
-
----
-
-### 💼 Desktop Application
-
----
-
-#### 💼 Payroll Management System — Java Swing + MySQL + Selenium
-[![Java](https://img.shields.io/badge/Java-Swing-orange?style=flat-square)](https://github.com/ranajitchowdhury/PayrollManagementSystems_Automation_Java_MySql_Selenium)
-
-Full-featured desktop payroll application with JDBC-connected MySQL database covering employee records, attendance, salary calculation (HRA, DA, PF), payslip generation, and automated UI testing.
-
-**Tech:** Java Swing/AWT · MySQL · JDBC · Selenium · Maven · OOP
-
----
-
-## 📊 Methodologies & Practices
-
-| Methodology | Practice | Tools Used |
-|------------|---------|-----------|
-| **Agile Scrum** | Sprint Planning, Daily Scrum, Retrospectives | Jira, Confluence |
-| **BDD** | Gherkin feature files, Given/When/Then | Cucumber, Behave |
-| **SDLC / STLC** | Full lifecycle involvement | Jira, TestNG, Maven |
-| **POM** | Page Object Model for maintainable automation | Selenium, Playwright, Appium |
-| **CI/CD** | Pipeline integration & automated builds | Jenkins, GitHub Actions |
-| **API Testing** | REST endpoint validation & automation | Postman, Rest Assured |
-| **Mobile Testing** | Android native app automation | Appium, UiAutomator2 |
-| **Defect Tracking** | Bug reporting, triage, and retesting | Jira |
-
----
-
-## 💻 Platforms
-
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=ios&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_Cloud-Basics-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-
----
-
-## 👨‍💼 Professional Background
-
-### Systems Expertise Built Over Decades
-
-| System | Domain |
-|--------|--------|
-| **SMS** | Sales Management System |
-| **PMS** | Payroll Management System |
-| **CBS** | Container Billing System (NAVIS SPARCS N4) |
-| **ICS** | Inventory Control System |
-| **PBS** | Personal Banking System |
-| **BMS** | Bill Management System |
-| **CTMS** | Container Terminal Management System |
-
-### Career Highlights
-
-- 🏭 **Chittagong Port Authority (1979–2016)** — Super User of NAVIS SPARCS N4 CTMS, system configuration, billing, MIS, and team training
-- 💻 **The Computer Systems (1990–1995)** — System Consultant, Designer & Programmer
-- 🌐 **Self-Employed / RbcTcsWorld (2016–Present)** — QA Automation Engineer, System Designer, Web Developer
-
----
-
-## 🎓 Education
-
-| Degree | Field | Institution | Year |
-|--------|-------|-------------|------|
-| **Master's** | Public Administration | University of Chittagong | 1984–1985 |
-
----
-
-## 📫 Contact Me
-
-<div align="center">
+## 📫 Contact
 
 | | |
 |---|---|
-| 📧 **Email** | chyranajit@gmail.com |
-| 📍 **Location** | Plymouth Meeting, Pennsylvania 19462, USA |
-| 📞 **Phone** | +1 (267) 342-5565 |
-| 🌐 **Portfolio** | [rbc6543.wixsite.com/rbc-portfolio](https://rbc6543.wixsite.com/rbc-portfolio) |
-| 💼 **LinkedIn** | [linkedin.com/in/ranajitchowdhury](https://linkedin.com/in/ranajitchowdhury) |
-| 🐙 **GitHub** | [github.com/ranajitchowdhury](https://github.com/ranajitchowdhury) |
+| Email | [chyranajit@gmail.com](mailto:chyranajit@gmail.com) |
+| Location | West Norriton, Pennsylvania 19403, USA · open to remote and hybrid |
+| Phone | +1 (267) 342-5565 |
+| LinkedIn | [linkedin.com/in/rbchy](https://www.linkedin.com/in/rbchy/) |
+| GitHub | [github.com/rbchy](https://github.com/rbchy) |
+| Website | [rbchy.github.io/rbchy](https://rbchy.github.io/rbchy/) · [Wix portfolio](https://rbc6543.wixsite.com/rbc-portfolio) |
 
-</div>
+**Available for:** full-time · contract · freelance QA Automation Engineer / SDET roles.
 
 ---
 
-<div align="center">
-
-### 🌟 Open to Remote QA Automation Engineer / SDET Roles
-
-**Available for:** Full-time · Contract · Freelance
-
-*Looking for a QA Automation Engineer who builds frameworks from scratch across Mobile and Web, writes clean BDD scenarios in multiple languages, delivers reliable API test coverage, and integrates CI/CD pipelines? Let's connect!*
-
-</div>
+No portfolio proves a tester is good. This one shows the work instead: frameworks built from scratch, tests that
+found real defects, and the evidence behind every number.

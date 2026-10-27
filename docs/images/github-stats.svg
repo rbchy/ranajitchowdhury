@@ -1,0 +1,80 @@
+<svg width="1000" height="400" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats: 37 public repositories, 35 updated in 2026; tests in Java, JavaScript, TypeScript and Python with Selenium, Playwright, Cypress, Appium, REST Assured and Postman.">
+<rect width="1000" height="400" rx="14" fill="#12313f"/>
+<text x="32" y="48" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f4b04a" text-anchor="start">GitHub Stats</text>
+<text x="32" y="72" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#9fbac2" text-anchor="start">github.com/rbchy · 26 Oct 2026</text>
+<rect x="32" y="96" width="138" height="60" rx="10" fill="#1b4253"/>
+<text x="46" y="126" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">37</text><text x="46" y="145" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">public repositories</text>
+<rect x="182" y="96" width="138" height="60" rx="10" fill="#1b4253"/>
+<text x="196" y="126" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">35</text><text x="196" y="145" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">updated in 2026</text>
+<rect x="32" y="166" width="138" height="60" rx="10" fill="#1b4253"/>
+<text x="46" y="196" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">4</text><text x="46" y="215" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">languages in tests</text>
+<rect x="182" y="166" width="138" height="60" rx="10" fill="#1b4253"/>
+<text x="196" y="196" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">6</text><text x="196" y="215" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">test frameworks</text>
+<rect x="32" y="236" width="138" height="60" rx="10" fill="#1b4253"/>
+<text x="46" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">2</text><text x="46" y="285" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">CI systems</text>
+<rect x="182" y="236" width="138" height="60" rx="10" fill="#1b4253"/>
+<text x="196" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">1,497</text><text x="196" y="285" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">tests in one project</text>
+<text x="360" y="96" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8f1f3" text-anchor="start">Repositories by month of their last update</text>
+<line x1="360" y1="280" x2="968" y2="280" stroke="#9fbac2" stroke-opacity=".4"/>
+<rect x="370.0" y="268.7" width="56.0" height="11.3" rx="3" fill="#4fb3a9"/>
+<text x="398.0" y="263.7" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">1</text>
+<text x="398.0" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9fbac2" text-anchor="middle">Dec 24</text>
+<rect x="446.0" y="268.7" width="56.0" height="11.3" rx="3" fill="#4fb3a9"/>
+<text x="474.0" y="263.7" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">1</text>
+<text x="474.0" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9fbac2" text-anchor="middle">Dec 25</text>
+<rect x="522.0" y="223.6" width="56.0" height="56.4" rx="3" fill="#4fb3a9"/>
+<text x="550.0" y="218.6" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">5</text>
+<text x="550.0" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9fbac2" text-anchor="middle">May 26</text>
+<rect x="598.0" y="122.0" width="56.0" height="158.0" rx="3" fill="#4fb3a9"/>
+<text x="626.0" y="117.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">14</text>
+<text x="626.0" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9fbac2" text-anchor="middle">Jun 26</text>
+<rect x="674.0" y="201.0" width="56.0" height="79.0" rx="3" fill="#4fb3a9"/>
+<text x="702.0" y="196.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">7</text>
+<text x="702.0" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9fbac2" text-anchor="middle">Jul 26</text>
+<rect x="750.0" y="268.7" width="56.0" height="11.3" rx="3" fill="#4fb3a9"/>
+<text x="778.0" y="263.7" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">1</text>
+<text x="778.0" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9fbac2" text-anchor="middle">Aug 26</text>
+<rect x="826.0" y="223.6" width="56.0" height="56.4" rx="3" fill="#4fb3a9"/>
+<text x="854.0" y="218.6" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">5</text>
+<text x="854.0" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9fbac2" text-anchor="middle">Sep 26</text>
+<rect x="902.0" y="246.1" width="56.0" height="33.9" rx="3" fill="#4fb3a9"/>
+<text x="930.0" y="241.1" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">3</text>
+<text x="930.0" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9fbac2" text-anchor="middle">Oct 26</text>
+<text x="32" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8f1f3" text-anchor="start">Languages and tools</text>
+<rect x="196" y="314" width="58" height="24" rx="12" fill="#1b4253"/>
+<circle cx="208" cy="326" r="5" fill="#b07219"/>
+<text x="218" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Java</text>
+<rect x="260" y="314" width="100" height="24" rx="12" fill="#1b4253"/>
+<circle cx="272" cy="326" r="5" fill="#f1e05a"/>
+<text x="282" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">JavaScript</text>
+<rect x="366" y="314" width="100" height="24" rx="12" fill="#1b4253"/>
+<circle cx="378" cy="326" r="5" fill="#3178c6"/>
+<text x="388" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">TypeScript</text>
+<rect x="472" y="314" width="72" height="24" rx="12" fill="#1b4253"/>
+<circle cx="484" cy="326" r="5" fill="#3572A5"/>
+<text x="494" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Python</text>
+<rect x="550" y="314" width="86" height="24" rx="12" fill="#1b4253"/>
+<circle cx="562" cy="326" r="5" fill="#43b02a"/>
+<text x="572" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Selenium</text>
+<rect x="642" y="314" width="100" height="24" rx="12" fill="#1b4253"/>
+<circle cx="654" cy="326" r="5" fill="#45ba4b"/>
+<text x="664" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Playwright</text>
+<rect x="748" y="314" width="79" height="24" rx="12" fill="#1b4253"/>
+<circle cx="760" cy="326" r="5" fill="#9fbac2"/>
+<text x="770" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Cypress</text>
+<rect x="833" y="314" width="72" height="24" rx="12" fill="#1b4253"/>
+<circle cx="845" cy="326" r="5" fill="#a78bfa"/>
+<text x="855" y="330" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Appium</text>
+<rect x="196" y="346" width="114" height="24" rx="12" fill="#1b4253"/>
+<circle cx="208" cy="358" r="5" fill="#43b02a"/>
+<text x="218" y="362" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">REST Assured</text>
+<rect x="316" y="346" width="79" height="24" rx="12" fill="#1b4253"/>
+<circle cx="328" cy="358" r="5" fill="#ff6c37"/>
+<text x="338" y="362" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Postman</text>
+<rect x="401" y="346" width="86" height="24" rx="12" fill="#1b4253"/>
+<circle cx="413" cy="358" r="5" fill="#23d96c"/>
+<text x="423" y="362" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Cucumber</text>
+<rect x="493" y="346" width="72" height="24" rx="12" fill="#1b4253"/>
+<circle cx="505" cy="358" r="5" fill="#f4b04a"/>
+<text x="515" y="362" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">TestNG</text>
+</svg>
