@@ -37,12 +37,11 @@ FEATURED = [
 # last push of each repository, by month (37 repositories)
 LAST_PUSH = [("Dec 24", 1), ("Dec 25", 1), ("May 26", 5), ("Jun 26", 14), ("Jul 26", 7), ("Aug 26", 1),
              ("Sep 26", 5), ("Oct 26", 3)]
-# GitHub's language bytes summed over all 37 repositories (repos/rbchy/*/languages, 26 Oct 2026). GitHub counts
-# 74.6 % HTML, but nearly all of it is test reports committed under target/ (Surefire, Cucumber) in about 15
-# repositories, so the bar shows the code languages with HTML left out.
-LANGUAGES = [("Java", 67.0, "#b07219"), ("CSS", 13.9, "#663399"), ("JavaScript", 10.6, "#f1e05a"),
-             ("TypeScript", 4.2, "#3178c6"), ("Gherkin", 2.4, "#5b9a3a"), ("Python", 1.1, "#3572A5"),
-             ("Other", 0.8, "#9fbac2")]  # Shell, Makefile, Dockerfile, Batchfile, PowerShell
+# GitHub's language bytes summed over all 37 repositories (repos/rbchy/*/languages, 26 Oct 2026), after the
+# committed test reports were removed from 14 repositories (they had made GitHub count 74.6 % HTML).
+LANGUAGES = [("Java", 66.1, "#b07219"), ("CSS", 11.5, "#663399"), ("JavaScript", 9.2, "#f1e05a"),
+             ("HTML", 5.2, "#e34c26"), ("TypeScript", 4.2, "#3178c6"), ("Gherkin", 2.0, "#5b9a3a"),
+             ("Python", 1.1, "#3572A5"), ("Other", 0.7, "#9fbac2")]  # Shell, Makefile, Dockerfile, Batchfile, PowerShell
 
 BG, PANEL, INK, MUTED, OK, TITLE = "#12313f", "#1b4253", "#e8f1f3", "#9fbac2", "#4ade80", "#f4b04a"
 FONT = "font-family=\"'Segoe UI', Helvetica, Arial, sans-serif\""
@@ -115,11 +114,11 @@ def github_stats():
     repos = sum(n for _, n in LAST_PUSH)
     w, h = 1000, 400
     p = [f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img" '
-         f'aria-label="GitHub stats: {repos} public repositories, 35 updated in 2026; code languages over all repositories, test-report HTML left out: Java 67.0 percent, CSS 13.9, JavaScript 10.6, TypeScript 4.2, Gherkin 2.4, Python 1.1, other 0.8.">',
+         f'aria-label="GitHub stats: {repos} public repositories, 35 updated in 2026; languages over all repositories as GitHub counts them: Java 66.1 percent, CSS 11.5, JavaScript 9.2, HTML 5.2, TypeScript 4.2, Gherkin 2.0, Python 1.1, other 0.7.">',
          f'<rect width="{w}" height="{h}" rx="14" fill="{BG}"/>',
          text(32, 48, "GitHub Stats", 24, TITLE, 700),
          text(32, 72, f"github.com/rbchy · {AS_OF}", 13, MUTED)]
-    nums = [(f"{repos}", "public repositories"), ("35", "updated in 2026"), ("6", "code languages"),
+    nums = [(f"{repos}", "public repositories"), ("35", "updated in 2026"), ("7", "code languages"),
             ("6", "test frameworks"), ("2", "CI systems"), ("1,497", "tests in one project")]
     for i, (big, label) in enumerate(nums):
         x, y = 32 + (i % 2) * 150, 96 + (i // 2) * 70
@@ -144,13 +143,13 @@ def github_stats():
         p.append(f'<circle cx="{lx}" cy="321" r="5" fill="{col}"/>')
         lab = f"{name} {pct} %"
         p.append(text(lx + 10, 325, lab, 12, INK))
-        lx += 10 + len(lab) * 6.6 + 18
+        lx += 10 + len(lab) * 6.6 + 12
     x, bw = 32.0, w - 64
     for name, pct, col in LANGUAGES:
         seg = bw * pct / 100
         p.append(f'<rect x="{x:.1f}" y="338" width="{max(seg - 2, 2):.1f}" height="12" rx="3" fill="{col}"/>')
         x += seg
-    p.append(text(32, 372, "GitHub's byte count over all 37 repositories; HTML (74.6 % on GitHub) is left out because it is almost all committed test reports.", 11.5, MUTED))
+    p.append(text(32, 372, "GitHub's own byte count over all 37 repositories, after test reports were taken out of git in 14 of them.", 11.5, MUTED))
     p.append("</svg>")
     (OUT / "github-stats.svg").write_text("\n".join(p) + "\n", encoding="utf-8")
 

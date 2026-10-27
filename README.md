@@ -57,7 +57,7 @@ pie showData
 
 ## 📈 GitHub Stats
 
-<img src="docs/images/github-stats.svg" alt="GitHub stats: 37 public repositories, 35 updated in 2026; languages over all repositories with committed test-report HTML left out: Java 67.0 %, CSS 13.9 %, JavaScript 10.6 %, TypeScript 4.2 %, Gherkin 2.4 %, Python 1.1 %, other 0.8 %" width="100%">
+<img src="docs/images/github-stats.svg" alt="GitHub stats: 37 public repositories, 35 updated in 2026; languages over all repositories as GitHub counts them: Java 66.1 %, CSS 11.5 %, JavaScript 9.2 %, HTML 5.2 %, TypeScript 4.2 %, Gherkin 2.0 %, Python 1.1 %, other 0.7 %" width="100%">
 
 ---
 
