@@ -57,7 +57,7 @@ pie showData
 
 ## 📈 GitHub Stats
 
-<img src="docs/images/github-stats.svg" alt="GitHub stats: 37 public repositories, 35 updated in 2026; tests in Java, JavaScript, TypeScript and Python with Selenium, Playwright, Cypress, Appium, REST Assured, Postman, Cucumber and TestNG" width="100%">
+<img src="docs/images/github-stats.svg" alt="GitHub stats: 37 public repositories, 35 updated in 2026; languages over all repositories with committed test-report HTML left out: Java 67.0 %, CSS 13.9 %, JavaScript 10.6 %, TypeScript 4.2 %, Gherkin 2.4 %, Python 1.1 %, other 0.8 %" width="100%">
 
 ---
 
