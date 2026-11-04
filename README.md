@@ -3,14 +3,16 @@
 [![Open to work](https://img.shields.io/badge/status-open%20to%20work-22c55e)](mailto:chyranajit@gmail.com)
 ![Role](https://img.shields.io/badge/QA%20Automation%20%2F%20SDET-0d9488)
 ![Repositories](https://img.shields.io/badge/public%20repositories-37-155e75)
-![Flagship tests](https://img.shields.io/badge/flagship%20tests-1497-brightgreen)
-![CI gates](https://img.shields.io/badge/CI%20quality%20gates-18-brightgreen)
+![Shop tests](https://img.shields.io/badge/shop%20tests-2033-brightgreen)
+![CI gates](https://img.shields.io/badge/CI%20quality%20gates-19-brightgreen)
 ![Location](https://img.shields.io/badge/Pennsylvania%2C%20USA-remote%20%2F%20hybrid-1e3a8a)
 
 Test automation across **web, mobile and API**, in **Java, Python, JavaScript and TypeScript**, with **Selenium,
 Playwright, Cypress, Appium, REST Assured, Postman and Cucumber**. 37 public repositories: e-commerce, banking,
 healthcare, HR, pharmaceutical packaging and cloud testing. The flagship is a complete test system around an online
-store: 1,497 automated tests behind 18 CI quality gates in GitHub Actions and Jenkins. Behind it are four decades of
+store: 1,497 automated tests behind 18 CI quality gates in GitHub Actions and Jenkins. Its code now runs
+[RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld), on its way to a live store with 2,033 tests behind 19 gates:
+an Amazon affiliate site first, the own shop (payments, tax, shipping, e-mail, backups, all built) later. Behind it are four decades of
 enterprise systems work, from container terminal management (NAVIS SPARCS N4) to GMP pharmaceutical packaging.
 
 Author: **Ranajit Baran (RB) Chowdhury**, QA Automation Engineer / SDET -
@@ -24,14 +26,14 @@ Author: **Ranajit Baran (RB) Chowdhury**, QA Automation Engineer / SDET -
 
 ## 🚦 Portfolio Status Board
 
-<img src="docs/images/portfolio-status.svg" alt="Portfolio status board: 37 public repositories, 2 flagship applications, 1,497 automated tests and 18 CI quality gates in the flagship, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
+<img src="docs/images/portfolio-status.svg" alt="Portfolio status board, 4 Nov 2026: 37 public repositories, 2 flagship applications, 2,033 automated tests and 19 CI quality gates in RbcTcsWorld Shop, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
 
 [![Suite CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml)
 [![Shop CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml)
 ![Followers](https://img.shields.io/github/followers/rbchy?label=followers)
 ![Last commit](https://img.shields.io/github/last-commit/rbchy/ranajitchowdhury?label=last%20update)
 
-The board is a snapshot of 26 Oct 2026, redrawn with [`docs/images/make_readme_cards.py`](docs/images/make_readme_cards.py);
+The board is a snapshot of 4 Nov 2026 (the GitHub stats card of 26 Oct 2026), redrawn with [`docs/images/make_readme_cards.py`](docs/images/make_readme_cards.py);
 the CI badges above are live.
 
 ## 🥧 Breakdown
@@ -55,6 +57,15 @@ pie showData
     "Appium (Android + iOS)" : 8
 ```
 
+```mermaid
+pie showData
+    title 2,033 tests in RbcTcsWorld Shop, by level (4 Nov 2026)
+    "Backend unit + integration" : 1164
+    "API, DB, BDD, Selenium UI" : 464
+    "Playwright (5 browsers/devices)" : 397
+    "Appium (Android + iOS)" : 8
+```
+
 ## 📈 GitHub Stats
 
 <img src="docs/images/github-stats.svg" alt="GitHub stats: 37 public repositories, 35 updated in 2026; languages over all repositories as GitHub counts them: Java 66.1 %, CSS 11.5 %, JavaScript 9.2 %, HTML 5.2 %, TypeScript 4.2 %, Gherkin 2.0 %, Python 1.1 %, other 0.7 %" width="100%">
@@ -73,7 +84,9 @@ pie showData
    [Traceability (129 requirements)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/blob/main/docs/qa/TRACEABILITY_MATRIX.md) ·
    [UAT Plan](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/blob/main/docs/qa/UAT_PLAN.md)
 4. **From portfolio to live store:** [RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld) and its
-   [roadmap](https://github.com/rbchy/RbcTcsWorld/blob/main/docs/store/ROADMAP.md).
+   [roadmap](https://github.com/rbchy/RbcTcsWorld/blob/main/docs/store/ROADMAP.md): Stripe Elements, Stripe Tax,
+   Shippo, Amazon SES and a production stack with tested backups, 26 decision records, 163 traced requirements; it goes
+   live first as an Amazon affiliate site ([ADR-0026](https://github.com/rbchy/RbcTcsWorld/blob/main/docs/adr/0026-partner-only-site.md)).
 5. **One framework, three languages:** QA Brains in [Python](https://github.com/rbchy/QaBrainsAutomationPythonPlawright),
    [TypeScript](https://github.com/rbchy/QaBrainsAutomationTypeScriptPlaywright) and
    [Java](https://github.com/rbchy/QaBrainsAutomationJavaPlaywright) with Playwright.
@@ -87,7 +100,7 @@ pie showData
 | Project | What it is | Evidence |
 |---|---|---|
 | [RbcTcsWorld E-Commerce Suite](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite) | Amazon-inspired store (Java 21, Spring Boot 4.1, PostgreSQL, React) built to be tested: unit, API, contract, DB, BDD, Selenium, Playwright, Appium, accessibility, performance, security, mutation testing | ![tests](https://img.shields.io/badge/tests-1497-brightgreen) ![coverage](https://img.shields.io/badge/lines-97.3%25-brightgreen) ![mutation](https://img.shields.io/badge/mutation-89.3%25-brightgreen) [![CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml) |
-| [RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld) | The same code on its way to a real store: Stripe Elements, tax, shipping, e-mail domain, backups, legal pages, under the same 18 gates | ![stage](https://img.shields.io/badge/stage-pre--launch-f59e0b) [![CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml) |
+| [RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld) | The suite's code on its way to a real store: Stripe Elements, Stripe Tax, Shippo labels and returns, Amazon SES, backups, legal pages, Amazon partner products; an affiliate site first, the own shop later | ![stage](https://img.shields.io/badge/stage-affiliate%20site%20first-f59e0b) ![tests](https://img.shields.io/badge/tests-2033-brightgreen) ![coverage](https://img.shields.io/badge/lines-97.5%25-brightgreen) ![mutation](https://img.shields.io/badge/mutation-86.9%25-brightgreen) [![CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml) |
 
 ---
 

@@ -13,7 +13,7 @@
 <rect x="32" y="236" width="138" height="60" rx="10" fill="#1b4253"/>
 <text x="46" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">2</text><text x="46" y="285" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">CI systems</text>
 <rect x="182" y="236" width="138" height="60" rx="10" fill="#1b4253"/>
-<text x="196" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">1,497</text><text x="196" y="285" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">tests in one project</text>
+<text x="196" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">2,033</text><text x="196" y="285" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">tests in one project</text>
 <text x="360" y="96" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8f1f3" text-anchor="start">Repositories by month of their last update</text>
 <line x1="360" y1="280" x2="968" y2="280" stroke="#9fbac2" stroke-opacity=".4"/>
 <rect x="370.0" y="268.7" width="56.0" height="11.3" rx="3" fill="#4fb3a9"/>
