@@ -17,7 +17,7 @@ enterprise systems work, from container terminal management (NAVIS SPARCS N4) to
 
 Author: **Ranajit Baran (RB) Chowdhury**, QA Automation Engineer / SDET -
 [GitHub](https://github.com/rbchy) · [LinkedIn](https://www.linkedin.com/in/rbchy/) ·
-[Website](https://rbchy.github.io/rbchy/) · [Portfolio](https://rbc6543.wixsite.com/rbc-portfolio) ·
+[Website](https://rbchy.github.io/rbchy/) (installable app: Android, iPhone, desktop) · [Portfolio](https://rbc6543.wixsite.com/rbc-portfolio) ·
 [chyranajit@gmail.com](mailto:chyranajit@gmail.com)
 
 > *"Quality is never an accident; it is always the result of intelligent effort."*
@@ -198,6 +198,7 @@ All 37 repositories: [github.com/rbchy?tab=repositories](https://github.com/rbch
 | LinkedIn | [linkedin.com/in/rbchy](https://www.linkedin.com/in/rbchy/) |
 | GitHub | [github.com/rbchy](https://github.com/rbchy) |
 | Website | [rbchy.github.io/rbchy](https://rbchy.github.io/rbchy/) · [Wix portfolio](https://rbc6543.wixsite.com/rbc-portfolio) |
+| App | Open the website and press **Install app** (Android, Windows, Mac) or use Safari → *Add to Home Screen* (iPhone); works offline · [Android build](https://github.com/rbchy/rbchy/actions/workflows/android-app.yml) |
 
 **Available for:** full-time · contract · freelance QA Automation Engineer / SDET roles.
 
