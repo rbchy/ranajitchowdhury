@@ -9,7 +9,8 @@ projects) on the date below; update them and run `python3 docs/images/make_readm
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
-AS_OF = "26 Oct 2026"
+AS_OF = "4 Nov 2026"
+STATS_AS_OF = "26 Oct 2026"  # the language and repository counts below
 
 # ---- github.com/rbchy, 26 Oct 2026 ----
 AREAS = [  # (label, repositories, colour)
@@ -22,7 +23,7 @@ AREAS = [  # (label, repositories, colour)
 # (project, what it shows, state) - state: flagship | active | stable
 FEATURED = [
     ("RbcTcsWorld E-Commerce Suite", "1,497 tests · 18 CI gates", "flagship"),
-    ("RbcTcsWorld Shop", "live-store roadmap · phase 2 next", "flagship"),
+    ("RbcTcsWorld Shop", "2,033 tests · 19 CI gates · affiliate site first", "flagship"),
     ("PharmaPack QMS + Serialization", "GMP packaging · desktop builds", "active"),
     ("ClinTrial-Connect", "Spring Boot · 115+ tests", "active"),
     ("QA Brains: Python Playwright", "12 passed · 0 failed", "stable"),
@@ -62,15 +63,15 @@ def status_board():
     repos = sum(n for _, n, _ in AREAS)
     w, h = 1000, 600
     p = [f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img" '
-         f'aria-label="Portfolio status board: {repos} public repositories, 2 flagship applications, 1,497 automated tests '
-         f'and 18 CI quality gates in the flagship, 40 plus years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable.">',
+         f'aria-label="Portfolio status board: {repos} public repositories, 2 flagship applications, 2,033 automated tests '
+         f'and 19 CI quality gates in the Shop, 40 plus years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable.">',
          f'<rect width="{w}" height="{h}" rx="14" fill="{BG}"/>',
          text(32, 48, "Portfolio Status Board", 24, TITLE, 700),
          text(32, 72, f"Ranajit Baran Chowdhury · github.com/rbchy · {AS_OF}", 13, MUTED)]
     tiles = [(f"{repos}", "public repositories", "web · mobile · API · full stack"),
              ("2", "flagship applications", "E-Commerce Suite · Shop"),
-             ("1,497", "automated tests", "in the flagship, every push"),
-             ("18 / 18", "CI quality gates", "GitHub Actions + Jenkins"),
+             ("2,033", "automated tests", "in the Shop, every push"),
+             ("19 / 19", "CI quality gates", "GitHub Actions + Jenkins"),
              ("40+", "years in technology", "ports · pharma · QA")]
     tw = (w - 64 - 4 * 12) / 5
     for i, (big, label, sub) in enumerate(tiles):
@@ -117,9 +118,9 @@ def github_stats():
          f'aria-label="GitHub stats: {repos} public repositories, 35 updated in 2026; languages over all repositories as GitHub counts them: Java 66.1 percent, CSS 11.5, JavaScript 9.2, HTML 5.2, TypeScript 4.2, Gherkin 2.0, Python 1.1, other 0.7.">',
          f'<rect width="{w}" height="{h}" rx="14" fill="{BG}"/>',
          text(32, 48, "GitHub Stats", 24, TITLE, 700),
-         text(32, 72, f"github.com/rbchy · {AS_OF}", 13, MUTED)]
+         text(32, 72, f"github.com/rbchy · {STATS_AS_OF}", 13, MUTED)]
     nums = [(f"{repos}", "public repositories"), ("35", "updated in 2026"), ("7", "code languages"),
-            ("6", "test frameworks"), ("2", "CI systems"), ("1,497", "tests in one project")]
+            ("6", "test frameworks"), ("2", "CI systems"), ("2,033", "tests in one project")]
     for i, (big, label) in enumerate(nums):
         x, y = 32 + (i % 2) * 150, 96 + (i // 2) * 70
         p.append(f'<rect x="{x}" y="{y}" width="138" height="60" rx="10" fill="{PANEL}"/>')
