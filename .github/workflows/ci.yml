@@ -47,6 +47,7 @@ jobs:
           node-version: "20"
       - name: Render every chart with mermaid-cli
         run: |
+          mkdir -p out
           echo '{"args":["--no-sandbox"]}' > puppeteer.json
           npx -y @mermaid-js/mermaid-cli@11.4.2 -p puppeteer.json -i README.md -o out/README.md
           n=$(grep -c '^```mermaid' README.md); s=$(ls out/*.svg | wc -l)
