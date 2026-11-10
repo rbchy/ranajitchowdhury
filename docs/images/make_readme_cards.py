@@ -3,46 +3,56 @@
 Draws the two README cards of this portfolio: the Portfolio Status Board and the GitHub Stats card
 (plain SVG, no dependencies), in the same style as the cards of the E-Commerce Suite README.
 
-The numbers are copied from GitHub (the repository list of github.com/rbchy and the CI run of the flagship
-projects) on the date below; update them and run `python3 docs/images/make_readme_cards.py`.
+All numbers come from docs/portfolio.json (one entry per public repository: area, stack, the result of its
+latest green CI run). Edit that file and run `python3 docs/images/make_readme_cards.py`; CI fails if the
+committed SVGs are not what this script draws.
 """
+import json
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
-AS_OF = "4 Nov 2026"
-STATS_AS_OF = "26 Oct 2026"  # the language and repository counts below
+DATA = json.loads((OUT.parent / "portfolio.json").read_text(encoding="utf-8"))
+AS_OF = DATA["as_of"]
+STATS_AS_OF = DATA["as_of"]
 
-# ---- github.com/rbchy, 26 Oct 2026 ----
-AREAS = [  # (label, repositories, colour)
-    ("Web UI automation", 16, "#4fb3a9"),
-    ("Full-stack applications", 12, "#f4b04a"),
-    ("Mobile (Appium)", 5, "#8fb8de"),
-    ("API automation", 2, "#e58a8a"),
-    ("Portfolio / profile", 2, "#b7a3e0"),
-]
+REPOS = DATA["repos"]
+AREAS = [(a["label"], sum(1 for r in REPOS if r["area"] == a["key"]), a["color"]) for a in DATA["areas"]]
+TOTAL_TESTS = sum(r["tests"] for r in REPOS)
+WITH_CI = sum(1 for r in REPOS if r["workflow"])
+SHOP = next(r for r in REPOS if r["name"] == "RbcTcsWorld")
+SUITE = next(r for r in REPOS if r["name"] == "RbcTcsWorld_ECommerceSuite")
+
 # (project, what it shows, state) - state: flagship | active | stable
 FEATURED = [
-    ("RbcTcsWorld E-Commerce Suite", "1,497 tests · 18 CI gates", "flagship"),
-    ("RbcTcsWorld Shop", "2,033 tests · 19 CI gates · affiliate site first", "flagship"),
-    ("PharmaPack QMS + Serialization", "GMP packaging · desktop builds", "active"),
-    ("ClinTrial-Connect", "Spring Boot · 115+ tests", "active"),
-    ("QA Brains: Python Playwright", "12 passed · 0 failed", "stable"),
-    ("QA Brains: TypeScript Playwright", "14 passed · 0 failed", "stable"),
-    ("QA Brains: Java Playwright", "Cucumber JVM · TestNG", "stable"),
-    ("Appium Mobile Automation", "23 / 23 · 100 % pass", "stable"),
-    ("OpenEMR Healthcare", "Selenium · Cucumber", "stable"),
-    ("Sauce Labs Cloud", "20+ browser/OS combos", "stable"),
-    ("API: REST Assured + Postman", "auth · data-driven", "stable"),
-    ("Payroll Management System", "Java Swing · MySQL", "stable"),
+    ("RbcTcsWorld E-Commerce Suite", f"{SUITE['tests']:,} tests · 18 CI gates", "flagship"),
+    ("RbcTcsWorld Shop", f"{SHOP['tests']:,} tests · 19 CI gates · affiliate first", "flagship"),
+    ("PharmaPack QMS + Serialization", "78 / 78 · desktop builds", "active"),
+    ("ClinTrial-Connect", "115 / 115 · Spring Boot", "active"),
+    ("Payroll app + automation", "160 + 260 tests · real MySQL", "stable"),
+    ("Amazon: Cypress BDD", "39 scenarios × 3 browsers", "stable"),
+    ("QA Brains: Python Playwright", "15 / 15 · Chromium + Firefox", "stable"),
+    ("QA Brains: TypeScript Playwright", "15 / 15 · GitHub Actions", "stable"),
+    ("Android UI: MyDemo (Appium)", "75 / 75 · emulator in CI", "stable"),
+    ("Appium Mobile Automation", "22 device + 8 unit · emulator", "stable"),
+    ("NorthFace AutomationExercise", "83 passed · 2 skipped", "stable"),
+    ("API: REST Assured + Postman", "20 tests + 40 assertions", "stable"),
 ]
-# last push of each repository, by month (37 repositories)
-LAST_PUSH = [("Dec 24", 1), ("Dec 25", 1), ("May 26", 5), ("Jun 26", 14), ("Jul 26", 7), ("Aug 26", 1),
-             ("Sep 26", 5), ("Oct 26", 3)]
-# GitHub's language bytes summed over all 37 repositories (repos/rbchy/*/languages, 26 Oct 2026), after the
-# committed test reports were removed from 14 repositories (they had made GitHub count 74.6 % HTML).
-LANGUAGES = [("Java", 66.1, "#b07219"), ("CSS", 11.5, "#663399"), ("JavaScript", 9.2, "#f1e05a"),
-             ("HTML", 5.2, "#e34c26"), ("TypeScript", 4.2, "#3178c6"), ("Gherkin", 2.0, "#5b9a3a"),
-             ("Python", 1.1, "#3572A5"), ("Other", 0.7, "#9fbac2")]  # Shell, Makefile, Dockerfile, Batchfile, PowerShell
+# tests per repository, the ten largest after the two flagships
+TOP = sorted((r for r in REPOS if not r.get("flagship") and r["tests"]), key=lambda r: -r["tests"])[:10]
+SHORT = {
+    "PayrollManagementSystems_Automation_Java_MySql_Selenium": "Payroll tests",
+    "PayrollManagementSystem": "Payroll app",
+    "RbcTcsWorld_ClinTrial-Connect": "ClinTrial",
+    "NorthFace_AutomationExercise-BDD-Test-Automation": "NorthFace",
+    "RbcTcsWorld_Pharmaceuticals_PMC": "PMC",
+    "RbcTcsWorld-EPMS": "EPMS",
+    "RbcTcsWorld_PharmaPackQMS_Serialization": "Serializ.",
+    "BhojanAloy-Food-Coffee-Shop-POS-System": "BhojanAloy",
+    "AndroidUIAppiumTest_MyDemoEcommerce": "MyDemo",
+    "OrangeHRM_TestAutomation_TestNG_Junit5": "OrangeHRM",
+    "RbcTcsWorld_PharmaPackQMS": "QMS",
+}
+LANGUAGES = [tuple(x) for x in DATA["languages"]]
 
 BG, PANEL, INK, MUTED, OK, TITLE = "#12313f", "#1b4253", "#e8f1f3", "#9fbac2", "#4ade80", "#f4b04a"
 FONT = "font-family=\"'Segoe UI', Helvetica, Arial, sans-serif\""
@@ -63,15 +73,16 @@ def status_board():
     repos = sum(n for _, n, _ in AREAS)
     w, h = 1000, 600
     p = [f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img" '
-         f'aria-label="Portfolio status board: {repos} public repositories, 2 flagship applications, 2,033 automated tests '
-         f'and 19 CI quality gates in the Shop, 40 plus years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable.">',
+         f'aria-label="Portfolio status board, {AS_OF}: {repos} public repositories, {WITH_CI} with green CI in GitHub Actions, '
+         f'{TOTAL_TESTS:,} automated tests across them, {SHOP["tests"]:,} tests and 19 CI gates in the Shop, 40 plus years in technology; '
+         f'12 featured projects: 2 flagship, 2 active, 8 stable.">',
          f'<rect width="{w}" height="{h}" rx="14" fill="{BG}"/>',
          text(32, 48, "Portfolio Status Board", 24, TITLE, 700),
          text(32, 72, f"Ranajit Baran Chowdhury · github.com/rbchy · {AS_OF}", 13, MUTED)]
     tiles = [(f"{repos}", "public repositories", "web · mobile · API · full stack"),
-             ("2", "flagship applications", "E-Commerce Suite · Shop"),
-             ("2,033", "automated tests", "in the Shop, every push"),
-             ("19 / 19", "CI quality gates", "GitHub Actions + Jenkins"),
+             (f"{WITH_CI} / {WITH_CI}", "repos with green CI", "GitHub Actions, every push"),
+             (f"{TOTAL_TESTS:,}", "automated tests", "counted per repository"),
+             (f"{SHOP['tests']:,}", "tests in the Shop", "19 / 19 CI quality gates"),
              ("40+", "years in technology", "ports · pharma · QA")]
     tw = (w - 64 - 4 * 12) / 5
     for i, (big, label, sub) in enumerate(tiles):
@@ -112,31 +123,35 @@ def status_board():
 
 
 def github_stats():
-    repos = sum(n for _, n in LAST_PUSH)
+    repos = len(REPOS)
     w, h = 1000, 400
+    langs = ", ".join(f"{n} {p}" for n, p, _ in LANGUAGES)
     p = [f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img" '
-         f'aria-label="GitHub stats: {repos} public repositories, 35 updated in 2026; languages over all repositories as GitHub counts them: Java 66.1 percent, CSS 11.5, JavaScript 9.2, HTML 5.2, TypeScript 4.2, Gherkin 2.0, Python 1.1, other 0.7.">',
+         f'aria-label="GitHub stats, {STATS_AS_OF}: {repos} public repositories, all updated in November 2026, {WITH_CI} with green CI; '
+         f'tests per repository for the ten largest after the flagships; languages over all repositories as GitHub counts them (percent): {langs}.">',
          f'<rect width="{w}" height="{h}" rx="14" fill="{BG}"/>',
          text(32, 48, "GitHub Stats", 24, TITLE, 700),
          text(32, 72, f"github.com/rbchy · {STATS_AS_OF}", 13, MUTED)]
-    nums = [(f"{repos}", "public repositories"), ("35", "updated in 2026"), ("7", "code languages"),
-            ("6", "test frameworks"), ("2", "CI systems"), ("2,033", "tests in one project")]
+    nums = [(f"{repos}", "public repositories"), (f"{WITH_CI}", "with green CI"), ("5", "code languages"),
+            ("7", "test frameworks"), ("2", "CI systems"), (f"{TOTAL_TESTS:,}", "automated tests")]
     for i, (big, label) in enumerate(nums):
         x, y = 32 + (i % 2) * 150, 96 + (i // 2) * 70
         p.append(f'<rect x="{x}" y="{y}" width="138" height="60" rx="10" fill="{PANEL}"/>')
         p.append(text(x + 14, y + 30, big, 22, "#ffffff", 700) + text(x + 14, y + 49, label, 11.5, MUTED))
 
-    cx0, cy0, cw, ch = 360, 122, 608, 158
-    p.append(text(cx0, 96, "Repositories by month of their last update", 15, INK, 700))
-    top = max(n for _, n in LAST_PUSH)
-    step = cw / len(LAST_PUSH)
+    cx0, cy0, cw, ch = 360, 122, 608, 140
+    p.append(text(cx0, 96, "Tests per repository (ten largest after the two flagships)", 15, INK, 700))
+    top = max(r["tests"] for r in TOP)
+    step = cw / len(TOP)
     p.append(f'<line x1="{cx0}" y1="{cy0 + ch}" x2="{cx0 + cw}" y2="{cy0 + ch}" stroke="{MUTED}" stroke-opacity=".4"/>')
-    for i, (month, n) in enumerate(LAST_PUSH):
+    colour = {a["key"]: a["color"] for a in DATA["areas"]}
+    for i, r in enumerate(TOP):
+        n = r["tests"]
         bh = ch * n / top
-        bx = cx0 + i * step + 10
-        p.append(f'<rect x="{bx:.1f}" y="{cy0 + ch - bh:.1f}" width="{step - 20:.1f}" height="{max(bh, 1.5):.1f}" rx="3" fill="#4fb3a9"/>')
-        p.append(text(round(bx + (step - 20) / 2, 1), round(cy0 + ch - bh - 5, 1), str(n), 11, INK, 600, "middle"))
-        p.append(text(round(bx + (step - 20) / 2, 1), cy0 + ch + 16, month, 11, MUTED, 400, "middle"))
+        bx = cx0 + i * step + 8
+        p.append(f'<rect x="{bx:.1f}" y="{cy0 + ch - bh:.1f}" width="{step - 16:.1f}" height="{max(bh, 1.5):.1f}" rx="3" fill="{colour[r["area"]]}"/>')
+        p.append(text(round(bx + (step - 16) / 2, 1), round(cy0 + ch - bh - 5, 1), str(n), 11, INK, 600, "middle"))
+        p.append(text(round(bx + (step - 16) / 2, 1), cy0 + ch + 16, SHORT.get(r["name"], r["name"][:12]), 10.5, MUTED, 400, "middle"))
 
     p.append(text(32, 326, "Languages", 15, INK, 700))
     lx = 136
@@ -150,7 +165,7 @@ def github_stats():
         seg = bw * pct / 100
         p.append(f'<rect x="{x:.1f}" y="338" width="{max(seg - 2, 2):.1f}" height="12" rx="3" fill="{col}"/>')
         x += seg
-    p.append(text(32, 372, "GitHub's own byte count over all 37 repositories, after test reports were taken out of git in 14 of them.", 11.5, MUTED))
+    p.append(text(32, 372, f"GitHub's own byte count over all {repos} repositories ({STATS_AS_OF}). Bar colours = area, as in the status board.", 11.5, MUTED))
     p.append("</svg>")
     (OUT / "github-stats.svg").write_text("\n".join(p) + "\n", encoding="utf-8")
 

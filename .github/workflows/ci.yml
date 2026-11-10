@@ -1,0 +1,88 @@
+# Portfolio checks
+#   data    : README tables and numbers agree with docs/portfolio.json; the SVG cards are
+#             exactly what make_readme_cards.py draws
+#   mermaid : every Mermaid chart in README.md renders
+#   repos   : every CI badge in the portfolio is served by GitHub; the status of each
+#             repository's pipeline is listed in the run summary
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 7 * * 1"   # weekly: catch a repository whose pipeline turned red
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  data:
+    name: README ↔ data ↔ cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Numbers, pies and links agree with docs/portfolio.json
+        run: python3 tests/check_portfolio.py
+      - name: Project tables are generated from the data
+        run: python3 docs/make_project_tables.py --check
+      - name: SVG cards are up to date
+        run: |
+          python3 docs/images/make_readme_cards.py
+          git diff --exit-code -- docs/images/ || { echo "::error::cards differ from make_readme_cards.py output"; exit 1; }
+
+  mermaid:
+    name: Mermaid charts render
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Render every chart with mermaid-cli
+        run: |
+          echo '{"args":["--no-sandbox"]}' > puppeteer.json
+          npx -y @mermaid-js/mermaid-cli@11.4.2 -p puppeteer.json -i README.md -o out/README.md
+          n=$(grep -c '^```mermaid' README.md); s=$(ls out/*.svg | wc -l)
+          echo "charts: $n, rendered: $s"
+          test "$n" -eq "$s"
+
+  repos:
+    name: Every listed pipeline exists
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check each CI badge and list its status
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          data = json.load(open("docs/portfolio.json"))
+          rows, missing, red = ["| Repository | Pipeline | Status |", "|---|---|---|"], [], []
+          for r in data["repos"]:
+              if not r["workflow"]:
+                  continue
+              url = f"https://github.com/rbchy/{r['name']}/actions/workflows/{r['workflow']}/badge.svg"
+              try:
+                  svg = urllib.request.urlopen(url, timeout=30).read().decode("utf-8", "replace")
+              except Exception as exc:
+                  missing.append(r["name"]); rows.append(f"| {r['name']} | {r['workflow']} | ❓ {exc} |"); continue
+              state = "passing" if "passing" in svg else "failing" if "failing" in svg else "no status"
+              if state != "passing":
+                  red.append(r["name"])
+              rows.append(f"| {r['name']} | {r['workflow']} | {'✅' if state == 'passing' else '❌'} {state} |")
+          out = "\n".join(rows)
+          print(out)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as s:
+              s.write(out + "\n")
+          if red:
+              print(f"::warning::pipelines not passing right now: {', '.join(red)}")
+          if missing:
+              raise SystemExit(f"badge not served for: {missing}")
+          PY
