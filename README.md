@@ -10,7 +10,7 @@
 [![Open to work](https://img.shields.io/badge/status-open%20to%20work-22c55e?style=for-the-badge)](mailto:chyranajit@gmail.com)
 ![Role](https://img.shields.io/badge/QA%20Automation%20%2F%20SDET-0d9488?style=for-the-badge)
 ![Repositories](https://img.shields.io/badge/public%20repositories-37-155e75?style=for-the-badge)
-![Green CI](https://img.shields.io/badge/green%20CI-36%20%2F%2036-22c55e?style=for-the-badge&logo=githubactions&logoColor=white)
+![Green CI](https://img.shields.io/badge/green%20CI-37%20%2F%2037-22c55e?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Tests](https://img.shields.io/badge/automated%20tests-5%2C216-brightgreen?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Pennsylvania%2C%20USA-remote%20%2F%20hybrid-1e3a8a?style=for-the-badge)
 
@@ -18,7 +18,7 @@
 
 </div>
 
-Test automation across **web, mobile and API** with **Selenium, Playwright, Cypress, Appium, REST Assured, Postman, Cucumber and Behave**. Each of the 35 code repositories has a GitHub Actions pipeline that builds the project and runs its tests on every push. This portfolio checks itself too, which makes 36 pipelines, all green. That is **5,216 automated tests**, counted per repository. Several suites run on real infrastructure: a MySQL 8 service, an Android 13 emulator, or three browsers.
+Test automation across **web, mobile and API** with **Selenium, Playwright, Cypress, Appium, REST Assured, Postman, Cucumber and Behave**. Each of the 35 code repositories has a GitHub Actions pipeline that builds the project and runs its tests on every push. This portfolio and the profile site (rbchy) check themselves too, which makes 37 pipelines, all green. That is **5,216 automated tests**, counted per repository. Several suites run on real infrastructure: a MySQL 8 service, an Android 13 emulator, or three browsers.
 
 The flagship is a complete test system around an online store: **1,489 tests behind 18 CI quality gates**. Its code now runs **[RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld)** (2,039 tests, 19 gates) on its way to a live store: first an Amazon affiliate site, later its own shop. Behind it are four decades of enterprise systems work, from container terminal management (NAVIS SPARCS N4) to GMP pharmaceutical packaging.
 
@@ -28,7 +28,7 @@ The flagship is a complete test system around an online store: **1,489 tests beh
 
 ## 🚦 Portfolio Status Board
 
-<img src="docs/images/portfolio-status.svg" alt="Portfolio status board, 10 Nov 2026: 37 public repositories, 36 with green CI in GitHub Actions, 5,216 automated tests across them, 2,039 tests and 19 CI gates in the Shop, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
+<img src="docs/images/portfolio-status.svg" alt="Portfolio status board, 10 Nov 2026: 37 public repositories, 37 with green CI in GitHub Actions, 5,216 automated tests across them, 2,039 tests and 19 CI gates in the Shop, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
 
 [![Suite CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml)
 [![Shop CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml)
@@ -39,7 +39,7 @@ The cards are drawn from [`docs/portfolio.json`](docs/portfolio.json) (one entry
 
 ## 📈 GitHub Stats
 
-<img src="docs/images/github-stats.svg" alt="GitHub stats, 10 Nov 2026: 37 public repositories, 36 with green CI, 5,216 automated tests; tests per repository for the ten largest after the flagships: Payroll automation 260, Payroll app 160, ClinTrial 115, NorthFace 85, PMC 81, EPMS 79, Serialization 78, BhojanAloy 76, MyDemo 75, PharmaPack QMS 66; languages: Java 71.6 %, JavaScript 8.9 %, CSS 8.9 %, HTML 3.7 %, TypeScript 3.4 %, Gherkin 1.8 %, Python 0.9 %, other 0.8 %" width="100%">
+<img src="docs/images/github-stats.svg" alt="GitHub stats, 10 Nov 2026: 37 public repositories, 37 with green CI, 5,216 automated tests; tests per repository for the ten largest after the flagships: Payroll automation 260, Payroll app 160, ClinTrial 115, NorthFace 85, PMC 81, EPMS 79, Serialization 78, BhojanAloy 76, MyDemo 75, PharmaPack QMS 66; languages: Java 71.6 %, JavaScript 8.9 %, CSS 8.9 %, HTML 3.7 %, TypeScript 3.4 %, Gherkin 1.8 %, Python 0.9 %, other 0.8 %" width="100%">
 
 ---
 
@@ -58,6 +58,8 @@ Between 9 and 10 November every repository was brought under the same rule: **th
 | [BhojanAloy POS](https://github.com/rbchy/BhojanAloy-Food-Coffee-Shop-POS-System) | schema missing the recipe columns; colliding order numbers |
 | [NorthFace](https://github.com/rbchy/NorthFace_AutomationExercise-BDD-Test-Automation) · [AmazonSeleniumTest](https://github.com/rbchy/AmazonSeleniumTest) | money rounding, a price parser crash; bot walls are now reported as *skipped, with the reason*, never bypassed |
 | [E-Commerce Suite](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite) | vulnerable dependencies upgraded until OSV-Scanner reports 0 |
+| [RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld) | Playwright 1.56 no longer installed on the new Ubuntu runner; a flaky photo-upload test traced to the server's *429 busy* answer (DEF-031, fixed with Retry-After handling) |
+| [rbchy (profile site)](https://github.com/rbchy/rbchy) | the daily *profile summary cards* job had failed on all 46 runs (no `actions/checkout`); new site checks keep README, website (6 languages) and resume in line with the data |
 
 ```mermaid
 stateDiagram-v2
@@ -362,7 +364,7 @@ Every row comes from [`docs/portfolio.json`](docs/portfolio.json). The CI column
 
 | Project | Stack | Latest CI result | CI |
 |---|---|---|---|
-| [rbchy](https://github.com/rbchy/rbchy) | GitHub profile · website · installable app | profile | — |
+| [rbchy](https://github.com/rbchy/rbchy) | GitHub profile · website · installable app | site, i18n and README checks | [![CI](https://github.com/rbchy/rbchy/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/rbchy/actions/workflows/ci.yml) |
 | [ranajitchowdhury](https://github.com/rbchy/ranajitchowdhury) | this portfolio | README checks | [![CI](https://github.com/rbchy/ranajitchowdhury/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/ranajitchowdhury/actions/workflows/ci.yml) |
 
 <!-- projects:end -->
