@@ -1,6 +1,6 @@
 {
   "as_of": "10 Nov 2026",
-  "note": "Single source of truth for the README cards and the CI checks. Test numbers are the latest green CI run of each repository on its main branch (10 Nov 2026). RbcTcsWorld updated after PR #36 (10 Nov 2026).",
+  "note": "Single source of truth for the README cards and the CI checks. Test numbers are the latest green CI run of each repository on its main branch (10 Nov 2026). RbcTcsWorld updated after PR #36; rbchy got its site-checks CI (10 Nov 2026).",
   "areas": [
     {
       "key": "web",
@@ -316,8 +316,8 @@
       "area": "profile",
       "stack": "GitHub profile · website · installable app",
       "tests": 0,
-      "result": "profile",
-      "workflow": null
+      "result": "site, i18n and README checks",
+      "workflow": "ci.yml"
     },
     {
       "name": "ranajitchowdhury",
