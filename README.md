@@ -4,23 +4,23 @@
 
 ### 37 public repositories, each with its own test suite running in GitHub Actions: web, mobile, API and full-stack, in Java, Python, JavaScript and TypeScript
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=0D9488&center=true&vCenter=true&width=900&repeat=true&lines=QA+Automation+Engineer+%2F+SDET;Selenium+%C2%B7+Playwright+%C2%B7+Cypress+%C2%B7+Appium+%C2%B7+REST+Assured;37+repositories+%C2%B7+36+green+CI+pipelines+%C2%B7+5%2C210+tests)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=0D9488&center=true&vCenter=true&width=900&repeat=true&lines=QA+Automation+Engineer+%2F+SDET;Selenium+%C2%B7+Playwright+%C2%B7+Cypress+%C2%B7+Appium+%C2%B7+REST+Assured;37+repositories+%C2%B7+36+green+CI+pipelines+%C2%B7+5%2C216+tests)](https://git.io/typing-svg)
 
 [![Portfolio checks](https://github.com/rbchy/ranajitchowdhury/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/ranajitchowdhury/actions/workflows/ci.yml)
 [![Open to work](https://img.shields.io/badge/status-open%20to%20work-22c55e?style=for-the-badge)](mailto:chyranajit@gmail.com)
 ![Role](https://img.shields.io/badge/QA%20Automation%20%2F%20SDET-0d9488?style=for-the-badge)
 ![Repositories](https://img.shields.io/badge/public%20repositories-37-155e75?style=for-the-badge)
 ![Green CI](https://img.shields.io/badge/green%20CI-36%20%2F%2036-22c55e?style=for-the-badge&logo=githubactions&logoColor=white)
-![Tests](https://img.shields.io/badge/automated%20tests-5%2C210-brightgreen?style=for-the-badge)
+![Tests](https://img.shields.io/badge/automated%20tests-5%2C216-brightgreen?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Pennsylvania%2C%20USA-remote%20%2F%20hybrid-1e3a8a?style=for-the-badge)
 
 [GitHub](https://github.com/rbchy) · [LinkedIn](https://www.linkedin.com/in/rbchy/) · [Website](https://rbchy.github.io/rbchy/) (installable app: Android, iPhone, desktop) · [Portfolio](https://rbc6543.wixsite.com/rbc-portfolio) · [chyranajit@gmail.com](mailto:chyranajit@gmail.com)
 
 </div>
 
-Test automation across **web, mobile and API** with **Selenium, Playwright, Cypress, Appium, REST Assured, Postman, Cucumber and Behave**. Each of the 35 code repositories has a GitHub Actions pipeline that builds the project and runs its tests on every push. This portfolio checks itself too, which makes 36 pipelines, all green. That is **5,210 automated tests**, counted per repository. Several suites run on real infrastructure: a MySQL 8 service, an Android 13 emulator, or three browsers.
+Test automation across **web, mobile and API** with **Selenium, Playwright, Cypress, Appium, REST Assured, Postman, Cucumber and Behave**. Each of the 35 code repositories has a GitHub Actions pipeline that builds the project and runs its tests on every push. This portfolio checks itself too, which makes 36 pipelines, all green. That is **5,216 automated tests**, counted per repository. Several suites run on real infrastructure: a MySQL 8 service, an Android 13 emulator, or three browsers.
 
-The flagship is a complete test system around an online store: **1,489 tests behind 18 CI quality gates**. Its code now runs **[RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld)** (2,033 tests, 19 gates) on its way to a live store: first an Amazon affiliate site, later its own shop. Behind it are four decades of enterprise systems work, from container terminal management (NAVIS SPARCS N4) to GMP pharmaceutical packaging.
+The flagship is a complete test system around an online store: **1,489 tests behind 18 CI quality gates**. Its code now runs **[RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld)** (2,039 tests, 19 gates) on its way to a live store: first an Amazon affiliate site, later its own shop. Behind it are four decades of enterprise systems work, from container terminal management (NAVIS SPARCS N4) to GMP pharmaceutical packaging.
 
 > *"Quality is never an accident; it is always the result of intelligent effort."*
 
@@ -28,7 +28,7 @@ The flagship is a complete test system around an online store: **1,489 tests beh
 
 ## 🚦 Portfolio Status Board
 
-<img src="docs/images/portfolio-status.svg" alt="Portfolio status board, 10 Nov 2026: 37 public repositories, 36 with green CI in GitHub Actions, 5,210 automated tests across them, 2,033 tests and 19 CI gates in the Shop, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
+<img src="docs/images/portfolio-status.svg" alt="Portfolio status board, 10 Nov 2026: 37 public repositories, 36 with green CI in GitHub Actions, 5,216 automated tests across them, 2,039 tests and 19 CI gates in the Shop, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
 
 [![Suite CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml)
 [![Shop CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml)
@@ -39,7 +39,7 @@ The cards are drawn from [`docs/portfolio.json`](docs/portfolio.json) (one entry
 
 ## 📈 GitHub Stats
 
-<img src="docs/images/github-stats.svg" alt="GitHub stats, 10 Nov 2026: 37 public repositories, 36 with green CI, 5,210 automated tests; tests per repository for the ten largest after the flagships: Payroll automation 260, Payroll app 160, ClinTrial 115, NorthFace 85, PMC 81, EPMS 79, Serialization 78, BhojanAloy 76, MyDemo 75, PharmaPack QMS 66; languages: Java 71.6 %, JavaScript 8.9 %, CSS 8.9 %, HTML 3.7 %, TypeScript 3.4 %, Gherkin 1.8 %, Python 0.9 %, other 0.8 %" width="100%">
+<img src="docs/images/github-stats.svg" alt="GitHub stats, 10 Nov 2026: 37 public repositories, 36 with green CI, 5,216 automated tests; tests per repository for the ten largest after the flagships: Payroll automation 260, Payroll app 160, ClinTrial 115, NorthFace 85, PMC 81, EPMS 79, Serialization 78, BhojanAloy 76, MyDemo 75, PharmaPack QMS 66; languages: Java 71.6 %, JavaScript 8.9 %, CSS 8.9 %, HTML 3.7 %, TypeScript 3.4 %, Gherkin 1.8 %, Python 0.9 %, other 0.8 %" width="100%">
 
 ---
 
@@ -88,8 +88,8 @@ pie showData
 
 ```mermaid
 pie showData
-    title 5,210 automated tests by area (latest green CI run per repository)
-    "Full-stack applications" : 4519
+    title 5,216 automated tests by area (latest green CI run per repository)
+    "Full-stack applications" : 4525
     "Web UI automation" : 391
     "Mobile (Appium)" : 240
     "API automation" : 60
@@ -119,10 +119,10 @@ pie showData
 
 ```mermaid
 pie showData
-    title 2,033 tests in RbcTcsWorld Shop, by level
+    title 2,039 tests in RbcTcsWorld Shop, by level
     "Backend unit + integration" : 1164
     "API, DB, BDD, Selenium UI" : 464
-    "Playwright (5 browsers/devices)" : 397
+    "Playwright (5 browsers/devices)" : 403
     "Appium (Android + iOS)" : 8
 ```
 
@@ -151,7 +151,7 @@ mindmap
   root((rbchy<br/>37 repos))
     Flagship
       E-Commerce Suite · 1,489 tests
-      RbcTcsWorld Shop · 2,033 tests
+      RbcTcsWorld Shop · 2,039 tests
     Full-stack apps
       Pharma: QMS · Serialization · PMC · PPES
       Payroll app + automation
@@ -293,7 +293,7 @@ sequenceDiagram
 | Project | What it is | Evidence |
 |---|---|---|
 | [RbcTcsWorld E-Commerce Suite](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite) | Amazon-inspired store (Java 21, Spring Boot 4.1, PostgreSQL, React) built to be tested: unit, API, contract, DB, BDD, Selenium, Playwright, Appium, accessibility, performance, security, mutation testing | ![tests](https://img.shields.io/badge/tests-1489-brightgreen) ![coverage](https://img.shields.io/badge/lines-97.3%25-brightgreen) ![mutation](https://img.shields.io/badge/mutation-89.3%25-brightgreen) [![CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml) |
-| [RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld) | The suite's code on its way to a real store: Stripe Elements, Stripe Tax, Shippo labels and returns, Amazon SES, backups, legal pages, Amazon partner products; an affiliate site first, the own shop later | ![stage](https://img.shields.io/badge/stage-affiliate%20site%20first-f59e0b) ![tests](https://img.shields.io/badge/tests-2033-brightgreen) ![coverage](https://img.shields.io/badge/lines-97.5%25-brightgreen) ![mutation](https://img.shields.io/badge/mutation-86.9%25-brightgreen) [![CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml) |
+| [RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld) | The suite's code on its way to a real store: Stripe Elements, Stripe Tax, Shippo labels and returns, Amazon SES, backups, legal pages, Amazon partner products; an affiliate site first, the own shop later | ![stage](https://img.shields.io/badge/stage-affiliate%20site%20first-f59e0b) ![tests](https://img.shields.io/badge/tests-2039-brightgreen) ![coverage](https://img.shields.io/badge/lines-97.5%25-brightgreen) ![mutation](https://img.shields.io/badge/mutation-86.9%25-brightgreen) [![CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml) |
 
 ---
 
@@ -303,11 +303,11 @@ Every row comes from [`docs/portfolio.json`](docs/portfolio.json). The CI column
 
 <!-- projects:start -->
 
-### 💻 Full-stack applications (each tested in CI) · 12 repositories · 4,519 tests
+### 💻 Full-stack applications (each tested in CI) · 12 repositories · 4,525 tests
 
 | Project | Stack | Latest CI result | CI |
 |---|---|---|---|
-| [RbcTcsWorld](https://github.com/rbchy/RbcTcsWorld) ⭐ | Java 21 · Spring Boot · PostgreSQL · React · Stripe · Shippo · SES | 2,033 tests · 19 / 19 gates | [![CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml) |
+| [RbcTcsWorld](https://github.com/rbchy/RbcTcsWorld) ⭐ | Java 21 · Spring Boot · PostgreSQL · React · Stripe · Shippo · SES | 2,039 tests · 19 / 19 gates · 0 flaky | [![CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml) |
 | [RbcTcsWorld\_ECommerceSuite](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite) ⭐ | Java 21 · Spring Boot 4.1 · PostgreSQL · React | 1,489 tests · 18 / 18 gates | [![CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml) |
 | [PayrollManagementSystems\_Automation\_Java\_MySql\_Selenium](https://github.com/rbchy/PayrollManagementSystems_Automation_Java_MySql_Selenium) | Java 21 · Swing · MySQL · JUnit 5 · Cucumber · AssertJ-Swing | 260 / 260 · real MySQL | [![CI](https://github.com/rbchy/PayrollManagementSystems_Automation_Java_MySql_Selenium/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/PayrollManagementSystems_Automation_Java_MySql_Selenium/actions/workflows/ci.yml) |
 | [PayrollManagementSystem](https://github.com/rbchy/PayrollManagementSystem) | Java 21 · Swing · MySQL · JUnit 5 | 160 / 160 · real MySQL | [![CI](https://github.com/rbchy/PayrollManagementSystem/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/PayrollManagementSystem/actions/workflows/ci.yml) |
