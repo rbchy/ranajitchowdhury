@@ -2,23 +2,23 @@
 
 # Ranajit Baran Chowdhury · QA Automation Portfolio
 
-### 37 public repositories, each with its own test suite running in GitHub Actions: web, mobile, API and full-stack, in Java, Python, JavaScript and TypeScript
+### 38 public repositories, each with its own test suite running in GitHub Actions: web, mobile, API and full-stack, in Java, Python, JavaScript and TypeScript
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=0D9488&center=true&vCenter=true&width=900&repeat=true&lines=QA+Automation+Engineer+%2F+SDET;Selenium+%C2%B7+Playwright+%C2%B7+Cypress+%C2%B7+Appium+%C2%B7+REST+Assured;37+repositories+%C2%B7+36+green+CI+pipelines+%C2%B7+5%2C216+tests)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=0D9488&center=true&vCenter=true&width=900&repeat=true&lines=QA+Automation+Engineer+%2F+SDET;Selenium+%C2%B7+Playwright+%C2%B7+Cypress+%C2%B7+Appium+%C2%B7+REST+Assured;38+repositories+%C2%B7+38+green+CI+pipelines+%C2%B7+5%2C258+tests)](https://git.io/typing-svg)
 
 [![Portfolio checks](https://github.com/rbchy/ranajitchowdhury/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/ranajitchowdhury/actions/workflows/ci.yml)
 [![Open to work](https://img.shields.io/badge/status-open%20to%20work-22c55e?style=for-the-badge)](mailto:chyranajit@gmail.com)
 ![Role](https://img.shields.io/badge/QA%20Automation%20%2F%20SDET-0d9488?style=for-the-badge)
-![Repositories](https://img.shields.io/badge/public%20repositories-37-155e75?style=for-the-badge)
-![Green CI](https://img.shields.io/badge/green%20CI-37%20%2F%2037-22c55e?style=for-the-badge&logo=githubactions&logoColor=white)
-![Tests](https://img.shields.io/badge/automated%20tests-5%2C216-brightgreen?style=for-the-badge)
+![Repositories](https://img.shields.io/badge/public%20repositories-38-155e75?style=for-the-badge)
+![Green CI](https://img.shields.io/badge/green%20CI-38%20%2F%2038-22c55e?style=for-the-badge&logo=githubactions&logoColor=white)
+![Tests](https://img.shields.io/badge/automated%20tests-5%2C258-brightgreen?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Pennsylvania%2C%20USA-remote%20%2F%20hybrid-1e3a8a?style=for-the-badge)
 
 [GitHub](https://github.com/rbchy) · [LinkedIn](https://www.linkedin.com/in/rbchy/) · [Website](https://rbchy.github.io/rbchy/) (installable app: Android, iPhone, desktop) · [Portfolio](https://rbc6543.wixsite.com/rbc-portfolio) · [chyranajit@gmail.com](mailto:chyranajit@gmail.com)
 
 </div>
 
-Test automation across **web, mobile and API** with **Selenium, Playwright, Cypress, Appium, REST Assured, Postman, Cucumber and Behave**. Each of the 35 code repositories has a GitHub Actions pipeline that builds the project and runs its tests on every push. This portfolio and the profile site (rbchy) check themselves too, which makes 37 pipelines, all green. That is **5,216 automated tests**, counted per repository. Several suites run on real infrastructure: a MySQL 8 service, an Android 13 emulator, or three browsers.
+Test automation across **web, mobile and API** with **Selenium, Playwright, Cypress, Appium, REST Assured, Postman, Cucumber and Behave**. Each of the 36 code repositories has a GitHub Actions pipeline that builds the project and runs its tests on every push. This portfolio and the profile site (rbchy) check themselves too, which makes 38 pipelines, all green. That is **5,258 automated tests**, counted per repository. Several suites run on real infrastructure: a MySQL 8 service, an Android 13 emulator, or three browsers.
 
 The flagship is a complete test system around an online store: **1,489 tests behind 18 CI quality gates**. Its code now runs **[RbcTcsWorld Shop](https://github.com/rbchy/RbcTcsWorld)** (2,039 tests, 19 gates) on its way to a live store: first an Amazon affiliate site, later its own shop. Behind it are four decades of enterprise systems work, from container terminal management (NAVIS SPARCS N4) to GMP pharmaceutical packaging.
 
@@ -28,18 +28,18 @@ The flagship is a complete test system around an online store: **1,489 tests beh
 
 ## 🚦 Portfolio Status Board
 
-<img src="docs/images/portfolio-status.svg" alt="Portfolio status board, 10 Nov 2026: 37 public repositories, 37 with green CI in GitHub Actions, 5,216 automated tests across them, 2,039 tests and 19 CI gates in the Shop, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
+<img src="docs/images/portfolio-status.svg" alt="Portfolio status board, 16 Nov 2026: 38 public repositories, 38 with green CI in GitHub Actions, 5,258 automated tests across them, 2,039 tests and 19 CI gates in the Shop, 40+ years in technology; 12 featured projects: 2 flagship, 2 active, 8 stable" width="100%">
 
 [![Suite CI](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_ECommerceSuite/actions/workflows/ci.yml)
 [![Shop CI](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld/actions/workflows/ci.yml)
 ![Followers](https://img.shields.io/github/followers/rbchy?label=followers)
 ![Last commit](https://img.shields.io/github/last-commit/rbchy/ranajitchowdhury?label=last%20update)
 
-The cards are drawn from [`docs/portfolio.json`](docs/portfolio.json) (one entry per repository, 10 Nov 2026) by [`docs/images/make_readme_cards.py`](docs/images/make_readme_cards.py). The CI badges in this README are live.
+The cards are drawn from [`docs/portfolio.json`](docs/portfolio.json) (one entry per repository, 16 Nov 2026) by [`docs/images/make_readme_cards.py`](docs/images/make_readme_cards.py). The CI badges in this README are live.
 
 ## 📈 GitHub Stats
 
-<img src="docs/images/github-stats.svg" alt="GitHub stats, 10 Nov 2026: 37 public repositories, 37 with green CI, 5,216 automated tests; tests per repository for the ten largest after the flagships: Payroll automation 260, Payroll app 160, ClinTrial 115, NorthFace 85, PMC 81, EPMS 79, Serialization 78, BhojanAloy 76, MyDemo 75, PharmaPack QMS 66; languages: Java 71.6 %, JavaScript 8.9 %, CSS 8.9 %, HTML 3.7 %, TypeScript 3.4 %, Gherkin 1.8 %, Python 0.9 %, other 0.8 %" width="100%">
+<img src="docs/images/github-stats.svg" alt="GitHub stats, 16 Nov 2026: 38 public repositories, 38 with green CI, 5,258 automated tests; tests per repository for the ten largest after the flagships: Payroll automation 260, Payroll app 160, ClinTrial 115, NorthFace 85, PMC 81, EPMS 79, Serialization 78, BhojanAloy 76, MyDemo 75, PharmaPack QMS 66; languages: Java 71.6 %, JavaScript 8.9 %, CSS 8.9 %, HTML 3.7 %, TypeScript 3.4 %, Gherkin 1.8 %, Python 0.9 %, other 0.8 %" width="100%">
 
 ---
 
@@ -80,9 +80,9 @@ stateDiagram-v2
 
 ```mermaid
 pie showData
-    title 37 public repositories by area
+    title 38 public repositories by area
     "Web UI automation" : 16
-    "Full-stack applications" : 12
+    "Full-stack applications" : 13
     "Mobile (Appium)" : 5
     "API automation" : 2
     "Portfolio / profile" : 2
@@ -90,8 +90,8 @@ pie showData
 
 ```mermaid
 pie showData
-    title 5,216 automated tests by area (latest green CI run per repository)
-    "Full-stack applications" : 4525
+    title 5,258 automated tests by area (latest green CI run per repository)
+    "Full-stack applications" : 4567
     "Web UI automation" : 391
     "Mobile (Appium)" : 240
     "API automation" : 60
@@ -99,7 +99,7 @@ pie showData
 
 ```mermaid
 pie showData
-    title Languages over all 37 repositories (GitHub byte count, %)
+    title Languages over all 38 repositories (GitHub byte count, %)
     "Java" : 71.6
     "JavaScript" : 8.9
     "CSS" : 8.9
@@ -150,7 +150,7 @@ xychart-beta
 
 ```mermaid
 mindmap
-  root((rbchy<br/>37 repos))
+  root((rbchy<br/>38 repos))
     Flagship
       E-Commerce Suite · 1,489 tests
       RbcTcsWorld Shop · 2,039 tests
@@ -158,6 +158,7 @@ mindmap
       Pharma: QMS · Serialization · PMC · PPES
       Payroll app + automation
       EPMS · ClinTrial · Inventory · BhojanAloy POS
+      Dhoom Vivekananda Samiti · React + Supabase
     Web UI
       QA Brains in 6 stacks
       Amazon · NorthFace · Guru99
@@ -305,7 +306,7 @@ Every row comes from [`docs/portfolio.json`](docs/portfolio.json). The CI column
 
 <!-- projects:start -->
 
-### 💻 Full-stack applications (each tested in CI) · 12 repositories · 4,525 tests
+### 💻 Full-stack applications (each tested in CI) · 13 repositories · 4,567 tests
 
 | Project | Stack | Latest CI result | CI |
 |---|---|---|---|
@@ -320,6 +321,7 @@ Every row comes from [`docs/portfolio.json`](docs/portfolio.json). The CI column
 | [BhojanAloy-Food-Coffee-Shop-POS-System](https://github.com/rbchy/BhojanAloy-Food-Coffee-Shop-POS-System) | Java Swing · MySQL | 76 / 76 | [![CI](https://github.com/rbchy/BhojanAloy-Food-Coffee-Shop-POS-System/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/BhojanAloy-Food-Coffee-Shop-POS-System/actions/workflows/ci.yml) |
 | [RbcTcsWorld\_PharmaPackQMS](https://github.com/rbchy/RbcTcsWorld_PharmaPackQMS) | Java · GMP packaging QMS | 66 / 66 | [![CI](https://github.com/rbchy/RbcTcsWorld_PharmaPackQMS/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/RbcTcsWorld_PharmaPackQMS/actions/workflows/ci.yml) |
 | [PPES-Pharmaceutical-Packaging-Management](https://github.com/rbchy/PPES-Pharmaceutical-Packaging-Management) | Java 17 · MySQL 8 · DAO / MVC | 49 / 49 | [![CI](https://github.com/rbchy/PPES-Pharmaceutical-Packaging-Management/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/PPES-Pharmaceutical-Packaging-Management/actions/workflows/ci.yml) |
+| [dhoom-vivekananda-samiti](https://github.com/rbchy/dhoom-vivekananda-samiti) | React 19 · Vite · Supabase · PostgreSQL RLS · GitHub Actions · GitHub Pages | 42 / 42 database security checks + build | [![CI](https://github.com/rbchy/dhoom-vivekananda-samiti/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/dhoom-vivekananda-samiti/actions/workflows/ci.yml) |
 | [InventoryControlManagement\_JavaMySql](https://github.com/rbchy/InventoryControlManagement_JavaMySql) | Java 17 · MySQL 8 · JDBC | 33 / 33 | [![CI](https://github.com/rbchy/InventoryControlManagement_JavaMySql/actions/workflows/ci.yml/badge.svg)](https://github.com/rbchy/InventoryControlManagement_JavaMySql/actions/workflows/ci.yml) |
 
 ### 🌐 Web UI automation (BDD) · 16 repositories · 391 tests
@@ -401,7 +403,7 @@ timeline
                 : QA automation engineer · system designer · developer
     2022 - now  : Sharp Packaging Services LLC
                 : Line Lead, GMP pharmaceutical blister packaging
-    2026        : 37 public repositories, all tested in GitHub Actions
+    2026        : 38 public repositories, all tested in GitHub Actions
 ```
 
 | Years | Role |

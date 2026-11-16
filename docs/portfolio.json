@@ -1,6 +1,6 @@
 {
-  "as_of": "10 Nov 2026",
-  "note": "Single source of truth for the README cards and the CI checks. Test numbers are the latest green CI run of each repository on its main branch (10 Nov 2026). RbcTcsWorld updated after PR #36; rbchy got its site-checks CI (10 Nov 2026).",
+  "as_of": "16 Nov 2026",
+  "note": "Single source of truth for the README cards and the CI checks. Test numbers are the latest green CI run of each repository on its main branch (10 Nov 2026). RbcTcsWorld updated after PR #36; rbchy got its site-checks CI (10 Nov 2026); dhoom-vivekananda-samiti added (16 Nov 2026).",
   "areas": [
     {
       "key": "web",
@@ -117,6 +117,14 @@
       "stack": "Java 17 · MySQL 8 · DAO / MVC",
       "tests": 49,
       "result": "49 / 49",
+      "workflow": "ci.yml"
+    },
+    {
+      "name": "dhoom-vivekananda-samiti",
+      "area": "app",
+      "stack": "React 19 · Vite · Supabase · PostgreSQL RLS · GitHub Actions · GitHub Pages",
+      "tests": 42,
+      "result": "42 / 42 database security checks + build",
       "workflow": "ci.yml"
     },
     {
