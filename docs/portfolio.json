@@ -1,6 +1,6 @@
 {
   "as_of": "20 Nov 2026",
-  "note": "Single source of truth for the README cards and the CI checks. Test numbers are the latest green CI run of each repository on its main branch (10 Nov 2026). RbcTcsWorld updated after PR #36; rbchy got its site-checks CI (10 Nov 2026); dhoom-vivekananda-samiti added (16 Nov 2026), 72 database security checks after the institution pages and festival calendar (20 Nov 2026).",
+  "note": "Single source of truth for the README cards and the CI checks. Test numbers are the latest green CI run of each repository on its main branch (10 Nov 2026). RbcTcsWorld updated after PR #36; rbchy got its site-checks CI (10 Nov 2026); dhoom-vivekananda-samiti added (16 Nov 2026), 72 database security checks after the institution pages and festival calendar, then 76 Playwright end-to-end tests: 162 in all (20 Nov 2026).",
   "areas": [
     {
       "key": "web",
@@ -123,8 +123,8 @@
       "name": "dhoom-vivekananda-samiti",
       "area": "app",
       "stack": "React 19 · Vite · Supabase · PostgreSQL RLS · GitHub Actions · GitHub Pages",
-      "tests": 72,
-      "result": "72 / 72 database security checks + build",
+      "tests": 162,
+      "result": "162 / 162 (76 Playwright E2E · 72 DB security · 14 unit)",
       "workflow": "ci.yml"
     },
     {

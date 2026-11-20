@@ -13,39 +13,39 @@
 <rect x="32" y="236" width="138" height="60" rx="10" fill="#1b4253"/>
 <text x="46" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">2</text><text x="46" y="285" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">CI systems</text>
 <rect x="182" y="236" width="138" height="60" rx="10" fill="#1b4253"/>
-<text x="196" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">5,288</text><text x="196" y="285" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">automated tests</text>
+<text x="196" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">5,378</text><text x="196" y="285" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9fbac2" text-anchor="start">automated tests</text>
 <text x="360" y="96" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8f1f3" text-anchor="start">Tests per repository (ten largest after the two flagships)</text>
 <line x1="360" y1="262" x2="968" y2="262" stroke="#9fbac2" stroke-opacity=".4"/>
 <rect x="368.0" y="122.0" width="44.8" height="140.0" rx="3" fill="#f4b04a"/>
 <text x="390.4" y="117.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">260</text>
 <text x="390.4" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">Payroll tests</text>
-<rect x="428.8" y="175.8" width="44.8" height="86.2" rx="3" fill="#f4b04a"/>
-<text x="451.2" y="170.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">160</text>
-<text x="451.2" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">Payroll app</text>
-<rect x="489.6" y="200.1" width="44.8" height="61.9" rx="3" fill="#f4b04a"/>
-<text x="512.0" y="195.1" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">115</text>
-<text x="512.0" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">ClinTrial</text>
-<rect x="550.4" y="216.2" width="44.8" height="45.8" rx="3" fill="#4fb3a9"/>
-<text x="572.8" y="211.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">85</text>
-<text x="572.8" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">NorthFace</text>
-<rect x="611.2" y="218.4" width="44.8" height="43.6" rx="3" fill="#f4b04a"/>
-<text x="633.6" y="213.4" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">81</text>
-<text x="633.6" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">PMC</text>
-<rect x="672.0" y="219.5" width="44.8" height="42.5" rx="3" fill="#f4b04a"/>
-<text x="694.4" y="214.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">79</text>
-<text x="694.4" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">EPMS</text>
-<rect x="732.8" y="220.0" width="44.8" height="42.0" rx="3" fill="#f4b04a"/>
-<text x="755.2" y="215.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">78</text>
-<text x="755.2" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">Serializ.</text>
-<rect x="793.6" y="221.1" width="44.8" height="40.9" rx="3" fill="#f4b04a"/>
-<text x="816.0" y="216.1" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">76</text>
-<text x="816.0" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">BhojanAloy</text>
-<rect x="854.4" y="221.6" width="44.8" height="40.4" rx="3" fill="#8fb8de"/>
-<text x="876.8" y="216.6" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">75</text>
-<text x="876.8" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">MyDemo</text>
-<rect x="915.2" y="223.2" width="44.8" height="38.8" rx="3" fill="#f4b04a"/>
-<text x="937.6" y="218.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">72</text>
-<text x="937.6" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">dhoom-viveka</text>
+<rect x="428.8" y="174.8" width="44.8" height="87.2" rx="3" fill="#f4b04a"/>
+<text x="451.2" y="169.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">162</text>
+<text x="451.2" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">dhoom-viveka</text>
+<rect x="489.6" y="175.8" width="44.8" height="86.2" rx="3" fill="#f4b04a"/>
+<text x="512.0" y="170.8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">160</text>
+<text x="512.0" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">Payroll app</text>
+<rect x="550.4" y="200.1" width="44.8" height="61.9" rx="3" fill="#f4b04a"/>
+<text x="572.8" y="195.1" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">115</text>
+<text x="572.8" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">ClinTrial</text>
+<rect x="611.2" y="216.2" width="44.8" height="45.8" rx="3" fill="#4fb3a9"/>
+<text x="633.6" y="211.2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">85</text>
+<text x="633.6" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">NorthFace</text>
+<rect x="672.0" y="218.4" width="44.8" height="43.6" rx="3" fill="#f4b04a"/>
+<text x="694.4" y="213.4" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">81</text>
+<text x="694.4" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">PMC</text>
+<rect x="732.8" y="219.5" width="44.8" height="42.5" rx="3" fill="#f4b04a"/>
+<text x="755.2" y="214.5" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">79</text>
+<text x="755.2" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">EPMS</text>
+<rect x="793.6" y="220.0" width="44.8" height="42.0" rx="3" fill="#f4b04a"/>
+<text x="816.0" y="215.0" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">78</text>
+<text x="816.0" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">Serializ.</text>
+<rect x="854.4" y="221.1" width="44.8" height="40.9" rx="3" fill="#f4b04a"/>
+<text x="876.8" y="216.1" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">76</text>
+<text x="876.8" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">BhojanAloy</text>
+<rect x="915.2" y="221.6" width="44.8" height="40.4" rx="3" fill="#8fb8de"/>
+<text x="937.6" y="216.6" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f1f3" text-anchor="middle">75</text>
+<text x="937.6" y="278" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9fbac2" text-anchor="middle">MyDemo</text>
 <text x="32" y="326" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8f1f3" text-anchor="start">Languages</text>
 <circle cx="136" cy="321" r="5" fill="#b07219"/>
 <text x="146" y="325" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#e8f1f3" text-anchor="start">Java 71.6 %</text>
